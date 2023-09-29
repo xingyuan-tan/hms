@@ -19,10 +19,23 @@ for symptom in diseases[target_disease]:
 
 
 # Test examination
-def lab_examine(patient, examination):
-    result = any(sym in lab_examination[examination] for sym in patient['sym'])
-    
-    return result
+# remember to put a filter before calling these function, or else the programme will break
+def lab_examine(
+    patient,
+    examination: str
+) -> set:
+    '''
+    :param patient: the patient object
+    :param examination:the target examination
+    :return: set of exisitng illness, if detect none return empty set
+    '''
+
+    # may want to include raise errors
+
+    set_patient_sym = set(patient['sym'])
+    set_exam_result = set(lab_examination[examination])
+
+    return set_patient_sym.intersection(set_exam_result)
 
 
 # Test examination
