@@ -8,21 +8,20 @@ Created on Wed Sep 27 02:32:30 2023
 from data import *
 import random
 
-target_disease = 'Bronchitis'
 
-# Generate Patient
-patient = {'main': target_disease,'sym':[]}
+class patient:
 
-for symptom in diseases[target_disease]:
-    if symptom['ProbabilityPercent'] > random.random():
-        patient['sym'].append(symptom['GameDBSymptomRef'])
-
+    def __init__(self, patient_id, disease, symptoms=[]):
+        self.patient_id = patient_id
+        self.disease = disease
+        self.symptoms = symptoms
+        self.examined = []
 
 # Test examination
 # remember to put a filter before calling these function, or else the programme will break
 def lab_examine(
-    patient,
-    examination: str
+        patient,
+        examination: str
 ) -> set:
     '''
     :param patient: the patient object
@@ -41,5 +40,20 @@ def lab_examine(
 # Test examination
 def doctor_examine(patient, examination):
     result = any(sym in doctor_examination[examination] for sym in patient['sym'])
-    
+
     return result
+
+
+
+# Generate Patient
+patient_id = 123
+target_disease = 'Bronchitis'
+symptoms = []
+
+for symptom in diseases[target_disease]:
+    if symptom['ProbabilityPercent'] > random.random():
+        symptoms.append(symptom['GameDBSymptomRef'])
+
+patient1 = patient(patient_id, target_disease, symptoms)
+
+patients = [patient1]

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Doctor Interface</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>Patient Info</h1>
+            <select>
+                {% for patient in patient_list %}
+                    <option value="{{ patient }}">{{patient}}</option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="row">
+            <h1>Possible Diagnosis</h1>
+        </div>
+
+        <div class="row">
+            <h1>Symtoms</h1>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h1>Possible Examination</h1>
+            </div>
+
+            <div class="col">
+                <h1>Completed Examination</h1>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
