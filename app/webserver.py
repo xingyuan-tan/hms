@@ -1,6 +1,4 @@
-from flask import Response, request
-from flask import Flask
-from flask import render_template
+from flask import Response, request, Flask, render_template, jsonify
 import os
 from patient import patients
 
@@ -24,7 +22,10 @@ def doctor():
 
 @app.route("/patient-data/<int:patient_id>")
 def patient_data(patient_id):
-    return patient
+    for p in patients:
+        if p.patient_id == patient_id:
+            return jsonify(p.serialise())
+    return ('', 204)
 
 app.run(port=5000, debug=True, threaded=True)
 
