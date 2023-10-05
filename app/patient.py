@@ -59,18 +59,12 @@ def doctor_examine(patient, examination):
 # Generate Patient
 patient_id = 123
 target_disease = 'Bronchitis'
-symptoms = []
+symptoms = {}
 
 for symptom in diseases[target_disease]:
     if symptom['ProbabilityPercent'] > random.random():
-        symptoms.append(symptom['GameDBSymptomRef'])
+        symptoms[symptom['GameDBSymptomRef']]=True
 
 patient1 = patient(patient_id, target_disease, symptoms)
 
 patients = [patient1]
-
-{
-    "EXM_TEMPERATURE_MEASUREMENT":True,
-    "EXM_BACTERIA_CULTIVATION_SAMPLING": (),
-
-}
