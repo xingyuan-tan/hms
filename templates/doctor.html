@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Doctor Interface</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>Patient Info</h1>
+            <select>
+                {% for patient in patient_list %}
+                    <option id="selected-patient" value="{{ patient }}">{{patient}}</option>
+                {% endfor %}
+            </select>
+
+            <button id="fetch-patient">Select Patient</button>
+        </div>
+
+        <div class="row">
+            <h1>Possible Diagnosis</h1>
+        </div>
+
+        <div class="row">
+            <h1>Symptoms</h1>
+            <ul id="symptom-list"></ul>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h1>Possible Examination</h1>
+            </div>
+
+            <div class="col">
+                <h1>Completed Examination</h1>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/doctor.js"></script>
+
+</body>
+</html>
