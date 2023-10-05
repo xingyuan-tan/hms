@@ -77,5 +77,8 @@ doctor_examination = {
         ],
     "EXM_NASAL_CAVITY_INSPECTION": [
         'SYM_NASAL_CONGESTION'
+        ],
+    "EXM_INTERVIEW":[
+        'CHILL'
         ]
     }
