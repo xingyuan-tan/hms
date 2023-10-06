@@ -8,9 +8,9 @@
     <div class="container">
         <div class="row">
             <h1>Patient Info</h1>
-            <select>
+            <select id="selected-patient">
                 {% for patient in patient_list %}
-                    <option id="selected-patient" value="{{ patient }}">{{patient}}</option>
+                    <option value="{{ patient }}">{{patient}}</option>
                 {% endfor %}
             </select>
 

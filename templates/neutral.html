@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>Patient Info</h1>
+            <select id="selected-diagnosis">
+                {% for diagnosis in diagnosis_list %}
+                    <option value="{{ diagnosis }}">{{diagnosis}}</option>
+                {% endfor %}
+            </select>
+
+            <button id="btn-approve-diagnosis">Diagnosis Done</button>
+        </div>
+    </div>
+
+    <script src="/static/neutral.js"></script>
+
+</body>
+
+</html>

@@ -1,4 +1,4 @@
-from flask import Response, request, Flask, render_template, jsonify
+from flask import Response, make_response, request, Flask, render_template, jsonify
 import os
 from patient import patients
 
@@ -13,11 +13,21 @@ def home():
 # Doctor page
 @app.route("/doctor")
 def doctor():
+    # Need to find mechanism to fetch the update the patient list
     patient_list = []
     for patient in patients:
         patient_list.append(patient.patient_id)
 
     return render_template("doctor.html", patient_list=patient_list)
+
+
+@app.route("/neutral")
+def neutral():
+    patient_list = []
+    for patient in patients:
+        patient_list.append(patient.patient_id)
+
+    return render_template("neutral.html", patient_list=patient_list)
 
 
 @app.route("/patient-data/<int:patient_id>")
@@ -26,6 +36,26 @@ def patient_data(patient_id):
         if p.patient_id == patient_id:
             return jsonify(p.serialise())
     return ('', 204)
+
+@app.route("/examine")
+def examine():
+    header = request.headers
+
+    try:
+        patients_id = header.get('patient_id')
+        examination = header.get('examination')
+    except:
+        response = make_response("<h1>Bad Request</h1>")
+        response.status_code = 400
+
+        return response
+
+
+
+    response = make_response("<h1>Success</h1>")
+    response.status_code = 200
+
+    return response
 
 app.run(port=5000, debug=True, threaded=True)
 
