@@ -38,8 +38,11 @@ function updateSymptoms(patient) {
     Object.keys(patient['symptoms']).forEach(function(key){
         console.log(key, patient['symptoms'][key]);
 
-        const newItem = document.createElement('li');
-        newItem.textContent = key;
-        symptomList.appendChild(newItem);
+        if (patient['symptoms'][key]) {
+            const newItem = document.createElement('li');
+            newItem.className = 'list-group-item';
+            newItem.textContent = key;
+            symptomList.appendChild(newItem);
+        }
     });
 }

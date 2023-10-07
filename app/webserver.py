@@ -1,15 +1,29 @@
 from flask import Response, make_response, request, Flask, render_template, jsonify
 import os
 from patient import patients
+from data import lab_examination
 from pymongo import MongoClient
 
 URL = 'mongodb+srv://HMS-user1:NJq36J0vSngNXtv7@hmscluster.obiqt5i.mongodb.net/?retryWrites=true&w=majority'
 
 # initialize a flask object
 app = Flask(__name__, template_folder='../templates', static_folder='../templates/static/')
+
 client = MongoClient(URL)
 db = client.patientDatabase
 collections = db.HMSCollection
+
+def lab_examine_backend(patient_id, examination):
+    patient_id = int(patient_id)
+
+    target_patient = collections.find_one({'patient_id':patient_id},{'_id':0})
+
+    set_patient_sym = set(target_patient['symptoms'])
+    set_exam_result = set(lab_examination[examination])
+
+    examine_result = set_patient_sym.intersection(set_exam_result)
+
+    collections.update_one({'patient_id':patient_id}, {"$set": {"examined."+examination: ''.join(examine_result)}})
 
 @app.route("/")
 def home():
@@ -30,9 +44,12 @@ def doctor():
 
 @app.route("/neutral")
 def neutral():
+
+    db_iterator = collections.find()
     patient_list = []
-    for patient in patients:
-        patient_list.append(patient.patient_id)
+
+    for p in db_iterator:
+        patient_list.append(p['patient_id'])
 
     return render_template("neutral.html", patient_list=patient_list)
 
@@ -49,23 +66,26 @@ def patient_data(patient_id):
 
 @app.route("/examine")
 def examine():
-    header = request.headers
+    params = request.args
 
-    try:
-        patients_id = header.get('patient_id')
-        examination = header.get('examination')
-    except:
-        response = make_response("<h1>Bad Request</h1>")
-        response.status_code = 400
+    # CHECK IF THE EXAMINATION AND PATIENT ID IS VALID
+    patient_id = params.get('patient_id')
+    examination = params.get('examination')
 
-        return response
+    print(patient_id, examination)
 
-    response = make_response("<h1>Success</h1>")
-    response.status_code = 200
+    if not patient_id and not examination:
 
-    return response
+        return ('bad request', 400)
+
+    lab_examine_backend(patient_id, examination)
+
+    return ('success', 200)
 
 app.run(port=5000, debug=True, threaded=True)
+
+
+
 
 # if __name__ == '__main__':
 #     # construct the argument parser and parse command line arguments
