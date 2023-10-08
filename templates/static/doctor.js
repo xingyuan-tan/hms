@@ -2,9 +2,12 @@ var btnFetchPatient = document.getElementById("fetch-patient");
 var selectedPatient = document.getElementById("selected-patient");
 var symptomList = document.getElementById("symptom-list")
 var completedExamList = document.getElementById("completed-exam-list")
+var diagnosisList = document.getElementById("diagnosis-list")
+
 const URL = window.location.host;
 
 btnFetchPatient.onclick = function () {
+    console.log('Fetch Patient');
     fetch('http://' + URL + '/patient-data/' + selectedPatient.value)
         .then(response => {
             if (!response.ok) {
@@ -24,7 +27,6 @@ btnFetchPatient.onclick = function () {
         .then((data) => {
             // 'data' now contains the JSON data
             updateSymptoms(data);
-            updateExamination(data);
             console.log(data);
         })
         .catch((error) => {
@@ -32,25 +34,32 @@ btnFetchPatient.onclick = function () {
         });
 };
 
-function updateSymptoms(patient) {
-    console.log('Update Symptoms');
-    symptomList.textContent = '';
 
+function updateSymptoms(data) {
+    patient = data.data.patient;
+    console.log(data.data)
+    data = data.data;
+
+    symptomList.textContent = '';
+    completedExamList.textContent = '';
+    diagnosisList.textContent = '';
+
+    console.log('Update Symptoms');
     Object.keys(patient['symptoms']).forEach(function(key){
         console.log(key, patient['symptoms'][key]);
 
         if (patient['symptoms'][key]) {
+            console.log(patient['symptoms'][key]);
+
             const newItem = document.createElement('li');
             newItem.className = 'list-group-item';
             newItem.textContent = key;
             symptomList.appendChild(newItem);
         }
     });
-}
 
-function updateExamination(patient){
-    console.log('Update Symptoms');
-    completedExamList.textContent = '';
+
+    console.log('Update Completed Examination');
 
     Object.keys(patient['examined']).forEach(function(key){
         console.log(key, patient['examined'][key]);
@@ -59,10 +68,17 @@ function updateExamination(patient){
         newItem.textContent = key;
         completedExamList.appendChild(newItem);
     });
+
+
+    Object.keys(data['diagnoses']).forEach(function(key){
+        console.log(key, data['diagnoses'][key]);
+
+        if (data['diagnoses'][key]) {
+            const newItem = document.createElement('li');
+            newItem.className = 'list-group-item';
+            newItem.textContent = data['diagnoses'][key];
+            diagnosisList.appendChild(newItem);
+        }
+    });
 }
 
-function updateCompletedExamine(patient) {
-    console.log('Update Completed Examine');
-
-
-}

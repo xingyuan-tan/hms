@@ -1,6 +1,7 @@
 from flask import Response, make_response, request, Flask, render_template, jsonify
 from pymongo import MongoClient
 
+from data import *
 from internal import *
 
 URL = 'mongodb+srv://HMS-user1:NJq36J0vSngNXtv7@hmscluster.obiqt5i.mongodb.net/?retryWrites=true&w=majority'
@@ -18,22 +19,28 @@ collections = db.HMSCollection
 def home():
     return render_template("home.html")
 
+
 # Doctor page
 @app.route("/doctor")
 def doctor():
 
-    db_iterator = collections.find()
     patient_list = []
 
-    for p in db_iterator:
-        patient_list.append(p['patient_id'])
+    for patient in list(collections.find()):
+        patient_list.append(patient["patient_id"])
 
     return render_template("doctor.html", patient_list=patient_list)
+
 
 # Get One Patient by ID
 @app.route('/patient-data/<int:patient_id>', methods=['GET'])
 def get_patient_by_id(patient_id):
+
     patient = collections.find_one({'patient_id': patient_id})
+
+    examined = patient['examined']
+    patient_diagnoses = update_diagnoses(examined)
+
     if patient:
         patient_dict = {
             'patient_id': patient['patient_id'],
@@ -46,7 +53,8 @@ def get_patient_by_id(patient_id):
                 "code": 200,
                 "message": "Retrieved 1 Patient",
                 "data": {
-                    "patient": patient_dict
+                    "patient": patient_dict,
+                    "diagnoses": patient_diagnoses
                 }
             }
         ), 200
@@ -57,7 +65,8 @@ def get_patient_by_id(patient_id):
                 "message": "Patient not found"
             }
         ), 400
-    
+
+
 # Update Patient Details
 @app.route('/patient-data/<int:patient_id>', methods=['PUT'])
 def edit_patient_info(patient_id):
@@ -73,7 +82,7 @@ def edit_patient_info(patient_id):
                 "code": 200,
                 "message": "Updated Patient Examination Details",
                 "data": {
-                    "patient": getPatientByID_helper_function(patient_id)
+                    "patient": getPatientByID_helper_function(patient_id, collections)
                 }
             }), 200
     except:
@@ -83,6 +92,7 @@ def edit_patient_info(patient_id):
                 "message": "Error updating patient details",
             }
         ), 400
+
 
 @app.route("/neutral")
 def neutral():
@@ -96,23 +106,7 @@ def neutral():
     return render_template("neutral.html", patient_list=patient_list)
 
 
-@app.route("/examine")
-def examine():
-    params = request.args
 
-    # CHECK IF THE EXAMINATION AND PATIENT ID IS VALID
-    patient_id = params.get('patient_id')
-    examination = params.get('examination')
-
-    print(patient_id, examination)
-
-    if not patient_id and not examination:
-
-        return ('bad request', 400)
-
-    lab_examine_backend(patient_id, examination)
-
-    return ('success', 200)
 
 app.run(port=5000, debug=True, threaded=True)
 
@@ -140,17 +134,3 @@ app.run(port=5000, debug=True, threaded=True)
 #     # start the flask app
 #     app.run(host=args["ip"], port=args["port"], debug=True,
 #         threaded=True, use_reloader=False)
-
-
-# get patient by id helper function
-def getPatientByID_helper_function(patient_id):
-    patient = collections.find_one({'patient_id': patient_id})
-    if patient:
-        patient_dict = {
-            'patient_id': patient['patient_id'],
-            'disease': patient["disease"],
-            'symptoms': patient['symptoms'],
-            'examined': patient['examined'],
-        }
-        return patient_dict
-
