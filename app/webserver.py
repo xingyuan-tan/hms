@@ -22,7 +22,11 @@ def doctor():
 # Neural page
 @app.route("/neutral")
 def neutral():
-    return render_template("neutral.html")
+    # To do: get patient list from DB
+    patient_list = []
+    for patient in patients:
+        patient_list.append(patient.patient_id)
+    return render_template("neutral.html", patient_list=patient_list)
 
 @app.route("/patient-data/<int:patient_id>")
 def patient_data(patient_id):

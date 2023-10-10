@@ -6,9 +6,19 @@
     <link rel="stylesheet" type="text/css" href="/static/neutral.css">
 </head>
 <body>
+    <div id="patient">
+        <h1>Patient Info</h1>
+        <select>
+            {% for patient in patient_list %}
+                <option id="selected-patient" value="{{ patient }}">{{patient}}</option>
+            {% endfor %}
+        </select>
+        <button id="fetch-patient">Select Patient</button>
+    </div>
+        
     <div id="symptoms">
         <h2>Symptoms</h2>
-        <ul>
+        <ul id="symptom-list">
             <li>Fever</li>
             <li>Cough</li>
             <li>Shortness of breath</li>
@@ -27,5 +37,8 @@
             <label for="test3">Test 3</label><br>
         </form>
     </div>
+
+    <script src="/static/neutral.js"></script>
+    
 </body>
 </html>
