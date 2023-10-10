@@ -19,6 +19,10 @@ def doctor():
 
     return render_template("doctor.html", patient_list=patient_list)
 
+# Neural page
+@app.route("/neutral")
+def neutral():
+    return render_template("neutral.html")
 
 @app.route("/patient-data/<int:patient_id>")
 def patient_data(patient_id):
