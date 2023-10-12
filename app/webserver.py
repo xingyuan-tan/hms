@@ -9,7 +9,7 @@ URL = 'mongodb+srv://HMS-user1:NJq36J0vSngNXtv7@hmscluster.obiqt5i.mongodb.net/?
 # initialize a flask object
 app = Flask(__name__, template_folder='../templates', static_folder='../templates/static/')
 
-client = MongoClient(URL)
+client = MongoClient(URL, tlsAllowInvalidCertificates=True)
 db = client.patientDatabase
 collections = db.HMSCollection
 
