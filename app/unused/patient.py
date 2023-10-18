@@ -9,7 +9,7 @@ from data import *
 import random
 
 
-class patient:
+class Patient:
 
     def __init__(self, patient_id, disease, symptoms=[]):
         self.patient_id = patient_id
@@ -65,6 +65,6 @@ for symptom in diseases[target_disease]:
     if symptom['ProbabilityPercent'] > random.random():
         symptoms[symptom['GameDBSymptomRef']]=True
 
-patient1 = patient(patient_id, target_disease, symptoms)
+patient1 = Patient(patient_id, target_disease, symptoms)
 
 patients = [patient1]
