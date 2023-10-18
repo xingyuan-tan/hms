@@ -61,3 +61,8 @@ function updateExamination(patient){
     });
 }
 
+function updateCompletedExamine(patient) {
+    console.log('Update Completed Examine');
+
+
+}

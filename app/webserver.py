@@ -1,8 +1,7 @@
 from flask import Response, make_response, request, Flask, render_template, jsonify
-import os
-from patient import patients
-from data import lab_examination
 from pymongo import MongoClient
+
+from internal import *
 
 URL = 'mongodb+srv://HMS-user1:NJq36J0vSngNXtv7@hmscluster.obiqt5i.mongodb.net/?retryWrites=true&w=majority'
 
@@ -13,17 +12,6 @@ client = MongoClient(URL, tlsAllowInvalidCertificates=True)
 db = client.patientDatabase
 collections = db.HMSCollection
 
-def lab_examine_backend(patient_id, examination):
-    patient_id = int(patient_id)
-
-    target_patient = collections.find_one({'patient_id':patient_id},{'_id':0})
-
-    set_patient_sym = set(target_patient['symptoms'])
-    set_exam_result = set(lab_examination[examination])
-
-    examine_result = set_patient_sym.intersection(set_exam_result)
-
-    collections.update_one({'patient_id':patient_id}, {"$set": {"examined."+examination: ''.join(examine_result)}})
 
 @app.route("/")
 def home():
@@ -63,6 +51,7 @@ def patient_data(patient_id):
         return jsonify(result)
 
     return ('', 204)
+
 
 @app.route("/examine")
 def examine():
