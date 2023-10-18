@@ -29,6 +29,7 @@ def doctor():
     for patient in list(collections.find()):
         patient_list.append(patient["patient_id"])
 
+
     return render_template("doctor.html", patient_list=patient_list)
 
 
@@ -107,6 +108,23 @@ def neutral():
 
 
 
+@app.route("/examine")
+def examine():
+    params = request.args
+
+    # CHECK IF THE EXAMINATION AND PATIENT ID IS VALID
+    patient_id = params.get('patient_id')
+    examination = params.get('examination')
+
+    print(patient_id, examination)
+
+    if not patient_id and not examination:
+
+        return ('bad request', 400)
+
+    lab_examine_backend(patient_id, examination)
+
+    return ('success', 200)
 
 app.run(port=5000, debug=True, threaded=True)
 

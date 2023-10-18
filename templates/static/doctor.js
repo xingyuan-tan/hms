@@ -4,6 +4,8 @@ var symptomList = document.getElementById("symptom-list")
 var completedExamList = document.getElementById("completed-exam-list")
 var diagnosisList = document.getElementById("diagnosis-list")
 
+
+
 const URL = window.location.host;
 
 btnFetchPatient.onclick = function () {
@@ -27,6 +29,7 @@ btnFetchPatient.onclick = function () {
         .then((data) => {
             // 'data' now contains the JSON data
             updateSymptoms(data);
+            updateExamination(data);
             console.log(data);
         })
         .catch((error) => {
@@ -58,9 +61,7 @@ function updateSymptoms(data) {
         }
     });
 
-
     console.log('Update Completed Examination');
-
     Object.keys(patient['examined']).forEach(function(key){
         console.log(key, patient['examined'][key]);
         const newItem = document.createElement('li');
@@ -81,4 +82,3 @@ function updateSymptoms(data) {
         }
     });
 }
-

@@ -1,5 +1,6 @@
 from data import *
 
+
 def lab_examine_backend(patient_id, examination, conn):
     patient_id = int(patient_id)
 
@@ -88,3 +89,4 @@ def check_exam(exam):
     for symptom in not_symptoms:
         not_diseases += check_symptom_1(symptom)
     return not_diseases
+
