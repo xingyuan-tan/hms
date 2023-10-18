@@ -11,7 +11,7 @@
             <h1>Patient Info</h1>
 
             <div class="col-2 p-3">
-                <select id="selected-patient" class="form-control input-sm" >
+                <select id="selected-patient" class="form-control input-sm">
                     {% for patient in patient_list %}
                         <option value="{{ patient }}">{{patient}}</option>
                     {% endfor %}
@@ -26,6 +26,7 @@
         <div class="row">
             <div class="col p-3">
                 <h1>Possible Diagnosis</h1>
+                <ul id="diagnosis-list" class="list-group"></ul>
             </div>
         </div>
 
@@ -43,10 +44,7 @@
 
             <div class="col-5 p-3">
                 <h1>Completed Examination</h1>
-
                 <ul id="completed-exam-list" class="list-group"></ul>
-
-
             </div>
         </div>
     </div>

@@ -1,9 +1,11 @@
 from flask import Response, make_response, request, Flask, render_template, jsonify
 from pymongo import MongoClient
 
+from data import *
 from internal import *
 
 URL = 'mongodb+srv://HMS-user1:NJq36J0vSngNXtv7@hmscluster.obiqt5i.mongodb.net/?retryWrites=true&w=majority'
+
 
 # initialize a flask object
 app = Flask(__name__, template_folder='../templates', static_folder='../templates/static/')
@@ -17,17 +19,80 @@ collections = db.HMSCollection
 def home():
     return render_template("home.html")
 
+
 # Doctor page
 @app.route("/doctor")
 def doctor():
 
-    db_iterator = collections.find()
     patient_list = []
 
-    for p in db_iterator:
-        patient_list.append(p['patient_id'])
+    for patient in list(collections.find()):
+        patient_list.append(patient["patient_id"])
+
 
     return render_template("doctor.html", patient_list=patient_list)
+
+
+# Get One Patient by ID
+@app.route('/patient-data/<int:patient_id>', methods=['GET'])
+def get_patient_by_id(patient_id):
+
+    patient = collections.find_one({'patient_id': patient_id})
+
+    examined = patient['examined']
+    patient_diagnoses = update_diagnoses(examined)
+
+    if patient:
+        patient_dict = {
+            'patient_id': patient['patient_id'],
+            'disease': patient["disease"],
+            'symptoms': patient['symptoms'],
+            'examined': patient['examined']
+        }
+        return jsonify(
+            {
+                "code": 200,
+                "message": "Retrieved 1 Patient",
+                "data": {
+                    "patient": patient_dict,
+                    "diagnoses": patient_diagnoses
+                }
+            }
+        ), 200
+    else:
+        return jsonify(
+            {
+                "code": 400,
+                "message": "Patient not found"
+            }
+        ), 400
+
+
+# Update Patient Details
+@app.route('/patient-data/<int:patient_id>', methods=['PUT'])
+def edit_patient_info(patient_id):
+    try:
+        data = request.get_json()
+        # patient_id = data["patient_id"]
+        examined = data['examined']
+
+        collections.update_one({"patient_id": patient_id}, {
+                              "$set": {"examined": examined}})
+        print("updated")
+        return jsonify({
+                "code": 200,
+                "message": "Updated Patient Examination Details",
+                "data": {
+                    "patient": getPatientByID_helper_function(patient_id, collections)
+                }
+            }), 200
+    except:
+        return jsonify(
+            {
+                "code": 400,
+                "message": "Error updating patient details",
+            }
+        ), 400
 
 
 @app.route("/neutral")
@@ -41,16 +106,6 @@ def neutral():
 
     return render_template("neutral.html", patient_list=patient_list)
 
-
-@app.route("/patient-data/<int:patient_id>")
-def patient_data(patient_id):
-
-    result = collections.find_one({'patient_id':patient_id},{'_id':0})
-
-    if result is not None:
-        return jsonify(result)
-
-    return ('', 204)
 
 
 @app.route("/examine")
@@ -97,5 +152,3 @@ app.run(port=5000, debug=True, threaded=True)
 #     # start the flask app
 #     app.run(host=args["ip"], port=args["port"], debug=True,
 #         threaded=True, use_reloader=False)
-
-
