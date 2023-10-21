@@ -5,7 +5,7 @@ from data import *
 from internal import *
 
 URL = 'mongodb+srv://HMS-user1:NJq36J0vSngNXtv7@hmscluster.obiqt5i.mongodb.net/?retryWrites=true&w=majority'
-
+EXAM_LIST = set(examination_list.keys())
 
 # initialize a flask object
 app = Flask(__name__, template_folder='../templates', static_folder='../templates/static/')
@@ -29,7 +29,6 @@ def doctor():
     for patient in list(collections.find()):
         patient_list.append(patient["patient_id"])
 
-
     return render_template("doctor.html", patient_list=patient_list)
 
 
@@ -43,11 +42,14 @@ def get_patient_by_id(patient_id):
     patient_diagnoses = update_diagnoses(examined)
 
     if patient:
+        possible_list = EXAM_LIST.difference(set(patient['examined']))
+
         patient_dict = {
             'patient_id': patient['patient_id'],
             'disease': patient["disease"],
             'symptoms': patient['symptoms'],
-            'examined': patient['examined']
+            'examined': patient['examined'],
+            'possible_exam': list(possible_list),
         }
         return jsonify(
             {

@@ -10,10 +10,12 @@ def lab_examine_backend(patient_id, examination, conn):
 
     conn.update_one({'patient_id': patient_id}, {"$set": {"examined." + examination: ''.join(res)}})
 
+    return
+
 
 def _lab_examine(target_patient, examination):
     set_patient_sym = set(target_patient['symptoms'])
-    set_exam_result = set(lab_examination[examination])
+    set_exam_result = set(examination_list[examination])
 
     return set_patient_sym.intersection(set_exam_result)
 
@@ -44,12 +46,12 @@ def update_diagnoses(examined):
     else:
         for exam in examined:
             # exam done is in lab_examination and is true, return disease that contains that symptom
-            if exam in lab_examination and examined[exam]:
+            if exam in examination_list and examined[exam]:
                 diagnosis = check_symptom(examined[exam])
                 return diagnosis
 
             # exam done is in doctor_examination and is true, return diseases that contain that symptom
-            elif exam in doctor_examination and examined[exam]:
+            elif exam in examination_list and examined[exam]:
                 diagnoses = check_symptom(examined[exam])
                 return diagnoses
 
@@ -80,13 +82,9 @@ def check_symptom_1(symptom_checked):
 
 
 def check_exam(exam):
-    if exam in lab_examination:
-        not_symptoms = lab_examination[exam]
-    else:
-        not_symptoms = doctor_examination[exam]
+    not_symptoms = examination_list[exam]
 
     not_diseases = []
     for symptom in not_symptoms:
         not_diseases += check_symptom_1(symptom)
     return not_diseases
-
