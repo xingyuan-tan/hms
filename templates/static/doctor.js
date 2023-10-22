@@ -2,6 +2,7 @@ var btnFetchPatient = document.getElementById("fetch-patient");
 var selectedPatient = document.getElementById("selected-patient");
 var symptomList = document.getElementById("symptom-list")
 var completedExamList = document.getElementById("completed-exam-list")
+var possibleExamList = document.getElementById("possible-exam-list")
 var diagnosisList = document.getElementById("diagnosis-list")
 
 
@@ -28,8 +29,7 @@ btnFetchPatient.onclick = function () {
         })
         .then((data) => {
             // 'data' now contains the JSON data
-            updateSymptoms(data);
-            updateExamination(data);
+            updatePatient(data);
             console.log(data);
         })
         .catch((error) => {
@@ -38,13 +38,14 @@ btnFetchPatient.onclick = function () {
 };
 
 
-function updateSymptoms(data) {
+function updatePatient(data) {
     patient = data.data.patient;
     console.log(data.data)
     data = data.data;
 
     symptomList.textContent = '';
     completedExamList.textContent = '';
+    possibleExamList.textContent = '';
     diagnosisList.textContent = '';
 
     console.log('Update Symptoms');
@@ -63,11 +64,18 @@ function updateSymptoms(data) {
 
     console.log('Update Completed Examination');
     Object.keys(patient['examined']).forEach(function(key){
-        console.log(key, patient['examined'][key]);
         const newItem = document.createElement('li');
         newItem.className = 'list-group-item';
         newItem.textContent = key;
         completedExamList.appendChild(newItem);
+    });
+
+    console.log('Update possible examination')
+    patient['possible_exam'].forEach(function(item){
+        const newItem = document.createElement('li');
+        newItem.className = 'list-group-item';
+        newItem.textContent = item;
+        possibleExamList.appendChild(newItem);
     });
 
 

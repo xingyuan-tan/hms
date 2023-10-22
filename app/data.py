@@ -64,14 +64,11 @@ diseases = {
     }
 
 
-lab_examination = {
+examination_list = {
     "EXM_BACTERIA_CULTIVATION_SAMPLING": [
         'SYM_BRONCHIAL_INFECTION',
         'SYM_S._PYOGENES_PRESENT'
-        ]
-    }
-    
-doctor_examination = {
+        ],
     "EXM_TEMPERATURE_MEASUREMENT": [
         'SYM_FEVER'
         ],
