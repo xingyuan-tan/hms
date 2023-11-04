@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 import random
-from data import *
+from disease import *
 
 client = MongoClient(
     'mongodb+srv://HMS-user1:NJq36J0vSngNXtv7@hmscluster.obiqt5i.mongodb.net/?retryWrites=true&w=majority') # ?retryWrites=true&w=majority

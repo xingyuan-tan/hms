@@ -1,7 +1,7 @@
 from flask import Response, make_response, request, Flask, render_template, jsonify
 from pymongo import MongoClient
 
-from data import *
+from examine_data import *
 from internal import *
 
 URL = 'mongodb+srv://HMS-user1:NJq36J0vSngNXtv7@hmscluster.obiqt5i.mongodb.net/?retryWrites=true&w=majority'
