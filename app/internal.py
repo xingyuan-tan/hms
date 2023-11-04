@@ -1,5 +1,5 @@
-from data import *
-
+from examine_data import *
+from disease_data import *
 
 def lab_examine_backend(patient_id, examination, conn):
     patient_id = int(patient_id)
