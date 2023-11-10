@@ -66,7 +66,7 @@ def update_diagnoses(examined):
 def check_symptom(symptom_checked):
     return_diseases = []
     for disease in diseases:
-        for symptom in diseases[disease]:
+        for symptom in diseases[disease]['Symptoms']:
             if symptom['GameDBSymptomRef'] == symptom_checked:
                 return_diseases.append(disease)
     return return_diseases
@@ -75,7 +75,7 @@ def check_symptom(symptom_checked):
 def check_symptom_1(symptom_checked):
     return_diseases = []
     for disease in diseases:
-        for symptom in diseases[disease]:
+        for symptom in diseases[disease]['Symptoms']:
             if symptom['GameDBSymptomRef'] == symptom_checked and symptom['ProbabilityPercent'] == 1.00:
                 return_diseases.append(disease)
     return return_diseases
