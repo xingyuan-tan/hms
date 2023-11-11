@@ -43,7 +43,17 @@ def update_symptoms(patient_id, examination_done, conn):
     return
 
 ########## HELPER FUNCTIONS ################# =========================================================
-
+# get patient by id helper function
+def getPatientByID_helper_function(patient_id, conn):
+    patient = conn.find_one({'patient_id': patient_id})
+    if patient:
+        patient_dict = {
+            'patient_id': patient['patient_id'],
+            'disease': patient["disease"],
+            'symptoms': patient['symptoms'],
+            'examined': patient['examined'],
+        }
+        return patient_dict
 
 # Filter Diagnoses based on examinations done Function
 
