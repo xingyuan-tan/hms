@@ -19,18 +19,7 @@ class patient:
 target_disease = 'Bronchitis'
 
 symptoms = {}
-for symptom in diseases[target_disease]:
-    if symptom['ProbabilityPercent'] > random.random():
-        symptoms[symptom['GameDBSymptomRef']] = False
 
-# Helper Function for add_patient
-def get_next_sequence_value(sequence_name):
-    counter = db.counters
-    sequence_value = counter.find_one_and_update(
-        {"_id": sequence_name}, {"$inc": {"seq": 1}})
-    return sequence_value['seq']
-
-patient_id = get_next_sequence_value("patient_id")
 generatedPatient = patient(patient_id, target_disease, symptoms)
 
 collection.insert_one(generatedPatient.__dict__)

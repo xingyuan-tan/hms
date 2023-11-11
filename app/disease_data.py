@@ -1,5 +1,861 @@
 diseases = {
-  "DIA_SLM_DESCRIPTION": {
+  "Pork Tapeworm Infection": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_NAUSEA"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_ABDOMINAL_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_FATIGUE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_WEIGHT_LOSS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_VITAMIN_DEFICIENCY"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 0,
+        "GameDBSymptomRef": "SYM_HUNGER"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_WEAKNESS"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_PORK_TAPEWORM_PRESENT"
+      }
+    ]
+  },
+  "Beef Tapeworm Infection": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_ABDOMINAL_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_DIZZINESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_HEADACHE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_LOSS_OF_APPETITE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_WEIGHT_LOSS"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_BEEF_TAPEWORM_PRESENT"
+      }
+    ]
+  },
+  "Chickenpox": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_VOMITING"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_LOSS_OF_APPETITE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_HEADACHE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_MUSCLES_AND_JOINTS_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 50,
+        "GameDBSymptomRef": "SYM_ITCHY_BLISTERS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_FEVER"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_PAPULAS_AND_VESICLES"
+      }
+    ]
+  },
+  "Iron deficiency anemia": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_BREATHING_DIFFICULTIES"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_WEAKNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_FATIGUE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_CHEST_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 20,
+        "GameDBSymptomRef": "SYM_CRUMBLY_NAIL"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 60,
+        "GameDBSymptomRef": "SYM_LOSS_OF_APPETITE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_HEADACHE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 10,
+        "GameDBSymptomRef": "SYM_HEMOGLOBIN_LOW"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 40,
+        "GameDBSymptomRef": "SYM_PALE_SKIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 60,
+        "GameDBSymptomRef": "SYM_DIZZINESS"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_LOW_HEMATOCRIT"
+      }
+    ]
+  },
+  "Lactose Intolerance": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_DIARRHEA"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_NAUSEA"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 60,
+        "GameDBSymptomRef": "SYM_VOMITING"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_ABDOMINAL_CRAMPS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 0,
+        "GameDBSymptomRef": "SYM_BLOATING"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 60,
+        "GameDBSymptomRef": "SYM_FLATULENCE"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_LACTOSE_INTOLERANCE_DETECTED"
+      }
+    ]
+  },
+  "Acute Pharyngitis": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_RED_SWOLLEN_TONSILS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_SWALLOW_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_FEVER"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_SPUTUM_COUGH"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_SNEEZING"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 60,
+        "GameDBSymptomRef": "SYM_NAUSEA"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 60,
+        "GameDBSymptomRef": "SYM_VOMITING"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 60,
+        "GameDBSymptomRef": "SYM_DYSPHAGIA"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 60,
+        "GameDBSymptomRef": "SYM_HOARSENESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_MUSCLES_AND_JOINTS_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 50,
+        "GameDBSymptomRef": "SYM_RASH"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_WHITE_PATCHES_ON_TONSILS"
+      }
+    ]
+  },
+  "Acute Bronchitis": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_DRY_COUGH"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_FATIGUE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_BREATHING_DIFFICULTIES"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_FEVER"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_CHILLS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_CHEST_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_HEADACHE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_WHEEZING"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_BRONCHIAL_INFECTION"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 20,
+        "GameDBSymptomRef": "SYM_LUNG_FINDINGS"
+      }
+    ]
+  },
+  "Golfer’s Elbow": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 40,
+        "GameDBSymptomRef": "SYM_ELBOW_STIFFNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_TENDERNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 50,
+        "GameDBSymptomRef": "SYM_FINGER_NUMBNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 50,
+        "GameDBSymptomRef": "SYM_HAND_WEAKNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 50,
+        "GameDBSymptomRef": "SYM_ELBOW_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 50,
+        "GameDBSymptomRef": "SYM_LIMITED_ARM_MOTION"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_FEVER"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_ELBOW_TENDONS_DAMAGED"
+      }
+    ]
+  },
+  "Scoliosis": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_BACK_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_MUSCLE_WEAKNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_NUMBNESS"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_SCOLIOTIC_FINDINGS"
+      }
+    ]
+  },
+  "Chronic Fatigue Syndrome": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 20,
+        "GameDBSymptomRef": "SYM_SORE_THROAT"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 60,
+        "GameDBSymptomRef": "SYM_MUSCLES_AND_JOINTS_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 60,
+        "GameDBSymptomRef": "SYM_NIGHT_SWEATS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_SLEEPING_DIFFICULTIES"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 20,
+        "GameDBSymptomRef": "SYM_TROUBLE_RISING"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_FATIGUE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_WEAKNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_LONG_REACT_TIME"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_CHR._FATIGUE_SYNDROME"
+      }
+    ]
+  },
+  "Insomnia": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_SLEEPING_DIFFICULTIES"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 60,
+        "GameDBSymptomRef": "SYM_IRRITABILITY"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_DEPRESSION"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 20,
+        "GameDBSymptomRef": "SYM_ANXIETY"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 60,
+        "GameDBSymptomRef": "SYM_CONFUSION"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_LONG_REACT_TIME"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_FATIGUE"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_INSOMNIA_REVEALED"
+      }
+    ]
+  },
+  "Forearm Contusion": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_INJURY_TO_THE_ARM"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 90,
+        "GameDBSymptomRef": "SYM_LIMITED_ARM_MOTION"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_SWELLING"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_REDNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_BRUISE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_TENDERNESS"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_FOREARM_CONTUSION"
+      }
+    ]
+  },
+  "Wrist Contusion": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_INJURY_TO_THE_HAND"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_HAND_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_HAND_WEAKNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_SWELLING"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_REDNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_BRUISE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_TENDERNESS"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_WRIST_CONTUSION"
+      }
+    ]
+  },
+  "Foot Contusion": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_INJURY_TO_THE_FOOT"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_WARMTH"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_SWELLING"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_BRUISE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_TENDERNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_LIMITED_LEG_MOTION"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_INSTEP_CONTUSION"
+      }
+    ]
+  },
+  "Ankle Contusion": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_ANKLE_INJURY"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_WARMTH"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_SWELLING"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_ANKLE_BRUISE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_INABILITY_TO_MOVE_THE_JOINT"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_TENDERNESS"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_ANKLE_CONTUSION"
+      }
+    ]
+  },
+  "Calf Contusion": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_INJURY_TO_THE_LEG"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_LIMITED_LEG_MOTION"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 60,
+        "GameDBSymptomRef": "SYM_SWELLING"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 20,
+        "GameDBSymptomRef": "SYM_REDNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_TENDERNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_BRUISE"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_CALF_CONTUSION"
+      }
+    ]
+  },
+  "Thorax Contusion": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_INJURY_TO_THE_CHEST"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_SWELLING"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "GameDBSymptomRef": "SYM_TENDERNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_BREATHING_DIFFICULTIES"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_REDNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_BRUISE"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_THORAX_CONTUSION"
+      }
+    ]
+  },
+  "Influenza B": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 90,
+        "GameDBSymptomRef": "SYM_CHILLS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 90,
+        "GameDBSymptomRef": "SYM_FEVER"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 90,
+        "GameDBSymptomRef": "SYM_MUSCLES_AND_JOINTS_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 90,
+        "GameDBSymptomRef": "SYM_MALAISE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 90,
+        "GameDBSymptomRef": "SYM_FATIGUE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 90,
+        "GameDBSymptomRef": "SYM_HEADACHE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 90,
+        "GameDBSymptomRef": "SYM_SORE_THROAT"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 90,
+        "GameDBSymptomRef": "SYM_IRRITABLE_COUGH"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 90,
+        "GameDBSymptomRef": "SYM_NASAL_CONGESTION"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 90,
+        "GameDBSymptomRef": "SYM_SNEEZING"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_INFLUENZA_B_DETECTED"
+      }
+    ]
+  },
+  "Influenza A": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_CHILLS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_FEVER"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_MUSCLES_AND_JOINTS_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_MALAISE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_FATIGUE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_HEADACHE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_SORE_THROAT"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_IRRITABLE_COUGH"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_NASAL_CONGESTION"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_SNEEZING"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_INFLUENZA_A_DETECTED"
+      }
+    ]
+  },
+  "Salmonellosis": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -57,7 +913,7 @@ diseases = {
       }
     ]
   },
-  "DIA_AMB_DESCRIPTION": {
+  "Amoebiasis": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -76,7 +932,7 @@ diseases = {
       },
       {
         "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 60,
+        "ProbabilityPercent": 0,
         "GameDBSymptomRef": "SYM_EXCESSIVE_BURPING"
       },
       {
@@ -105,7 +961,7 @@ diseases = {
       }
     ]
   },
-  "DIA_GRD_DESCRIPTION": {
+  "Giardiasis": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -158,7 +1014,7 @@ diseases = {
       }
     ]
   },
-  "DIA_PMI_DESCRIPTION": {
+  "Pulmonary mycobacterial infection": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -241,7 +1097,7 @@ diseases = {
       }
     ]
   },
-  "DIA_IMN_DESCRIPTION": {
+  "Infectious mononucleosis": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -265,7 +1121,7 @@ diseases = {
       },
       {
         "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 40,
+        "ProbabilityPercent": 0,
         "GameDBSymptomRef": "SYM_PETECHIAE"
       },
       {
@@ -309,7 +1165,7 @@ diseases = {
       }
     ]
   },
-  "DIA_HPM_DESCRIPTION": {
+  "Histoplasmosis": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -372,7 +1228,7 @@ diseases = {
       }
     ]
   },
-  "DIA_ASP_DESCRIPTION": {
+  "Aspergillosis": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -440,7 +1296,7 @@ diseases = {
       }
     ]
   },
-  "DIA_HLA_DESCRIPTION": {
+  "Hemolytic anaemia": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -498,16 +1354,16 @@ diseases = {
       }
     ]
   },
-  "DIA_TCP_DESCRIPTION": {
+  "Thrombocytopenia": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 70,
+        "ProbabilityPercent": 0,
         "GameDBSymptomRef": "SYM_PURPURA"
       },
       {
         "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 30,
+        "ProbabilityPercent": 0,
         "GameDBSymptomRef": "SYM_PETECHIAE"
       },
       {
@@ -517,7 +1373,7 @@ diseases = {
       },
       {
         "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 60,
+        "ProbabilityPercent": 0,
         "GameDBSymptomRef": "SYM_HEMATURIA"
       },
       {
@@ -531,7 +1387,7 @@ diseases = {
       }
     ]
   },
-  "DIA_HPL_DESCRIPTION": {
+  "Hemophilia": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -545,7 +1401,7 @@ diseases = {
       },
       {
         "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 70,
+        "ProbabilityPercent": 0,
         "GameDBSymptomRef": "SYM_PURPURA"
       },
       {
@@ -564,7 +1420,7 @@ diseases = {
       }
     ]
   },
-  "DIA_THL_DESCRIPTION": {
+  "Thalassaemia": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -607,7 +1463,7 @@ diseases = {
       }
     ]
   },
-  "DIA_SRCL_DESCRIPTION": {
+  "Sarcoidosis - Lungs": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -660,7 +1516,7 @@ diseases = {
       }
     ]
   },
-  "DIA_SRCE_DESCRIPTION": {
+  "Sarcoidosis - Eye": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -689,7 +1545,7 @@ diseases = {
       },
       {
         "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 70,
+        "ProbabilityPercent": 0,
         "GameDBSymptomRef": "SYM_PHOTOPHOBIA"
       },
       {
@@ -698,7 +1554,7 @@ diseases = {
       }
     ]
   },
-  "DIA_SRCH_DESCRIPTION": {
+  "Sarcoidosis - Heart": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -747,7 +1603,7 @@ diseases = {
       },
       {
         "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 50,
+        "ProbabilityPercent": 0,
         "GameDBSymptomRef": "SYM_PALPITATIONS"
       },
       {
@@ -756,21 +1612,21 @@ diseases = {
       }
     ]
   },
-  "DIA_DM1_DESCRIPTION": {
+  "Diabetes": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 70,
+        "ProbabilityPercent": 0,
         "GameDBSymptomRef": "SYM_POLYURIA"
       },
       {
         "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 70,
+        "ProbabilityPercent": 0,
         "GameDBSymptomRef": "SYM_HUNGER"
       },
       {
         "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 70,
+        "ProbabilityPercent": 0,
         "GameDBSymptomRef": "SYM_THIRST"
       },
       {
@@ -804,7 +1660,7 @@ diseases = {
       }
     ]
   },
-  "DIA_CFB_DESCRIPTION": {
+  "Cystic Fibrosis": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -823,7 +1679,7 @@ diseases = {
       },
       {
         "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 70,
+        "ProbabilityPercent": 0,
         "GameDBSymptomRef": "SYM_CONSTIPATION"
       },
       {
@@ -852,7 +1708,7 @@ diseases = {
       }
     ]
   },
-  "DIA_OTE_DESCRIPTION": {
+  "Otitis Externa": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -881,7 +1737,7 @@ diseases = {
       },
       {
         "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 70,
+        "ProbabilityPercent": 0,
         "GameDBSymptomRef": "SYM_ITCHING"
       },
       {
@@ -895,35 +1751,7 @@ diseases = {
       }
     ]
   },
-  "DIA_OME_DESCRIPTION": {
-    "Symptoms": [
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 70,
-        "GameDBSymptomRef": "SYM_EDEMA"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 70,
-        "GameDBSymptomRef": "SYM_DIMINISHED_HEARING"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 70,
-        "GameDBSymptomRef": "SYM_HEARING_DIFFICULTIES"
-      },
-      {
-        "ProbabilityPercent": 100,
-        "GameDBSymptomRef": "SYM_FLUID_IN_MIDDLE_EAR"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 50,
-        "GameDBSymptomRef": "SYM_SWOLLEN_EAR_CANAL"
-      }
-    ]
-  },
-  "DIA_ASO_DESCRIPTION": {
+  "Acute Suppurative Otitis Media": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -971,7 +1799,7 @@ diseases = {
       }
     ]
   },
-  "DIA_AMT_DESCRIPTION": {
+  "Acute Mastoiditis": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -1024,73 +1852,7 @@ diseases = {
       }
     ]
   },
-  "DIA_OTS_DESCRIPTION": {
-    "Symptoms": [
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 50,
-        "GameDBSymptomRef": "SYM_HEARING_DIFFICULTIES"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 50,
-        "GameDBSymptomRef": "SYM_DIMINISHED_HEARING"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 60,
-        "GameDBSymptomRef": "SYM_RINGING_IN_THE_EARS"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 60,
-        "GameDBSymptomRef": "SYM_DIZZINESS"
-      },
-      {
-        "ProbabilityPercent": 100,
-        "GameDBSymptomRef": "SYM_OTOSCLEROSIS_DISCOVERED"
-      }
-    ]
-  },
-  "DIA_OOR_DESCRIPTION": {
-    "Symptoms": [
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 70,
-        "GameDBSymptomRef": "SYM_HEARING_DIFFICULTIES"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 70,
-        "GameDBSymptomRef": "SYM_OTALGIA"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 70,
-        "GameDBSymptomRef": "SYM_FEVER"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 30,
-        "GameDBSymptomRef": "SYM_SWOLLEN_EAR_LOBE"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 30,
-        "GameDBSymptomRef": "SYM_EAR_FLUID_DRAINAGE"
-      },
-      {
-        "ProbabilityPercent": 100,
-        "GameDBSymptomRef": "SYM_OUTER_EAR_INFECTED"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 30,
-        "GameDBSymptomRef": "SYM_SWOLLEN_EAR_CANAL"
-      }
-    ]
-  },
-  "DIA_PNM_DESCRIPTION": {
+  "Pneumonia": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -1119,7 +1881,7 @@ diseases = {
       },
       {
         "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 50,
+        "ProbabilityPercent": 0,
         "GameDBSymptomRef": "SYM_TREMOR"
       },
       {
@@ -1188,7 +1950,7 @@ diseases = {
       }
     ]
   },
-  "DIA_BPN_DESCRIPTION": {
+  "Bronchopneumonia": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -1281,7 +2043,7 @@ diseases = {
       }
     ]
   },
-  "DIA_BES_DESCRIPTION": {
+  "Bronchiectasis": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -1349,7 +2111,7 @@ diseases = {
       }
     ]
   },
-  "DIA_SCB_DESCRIPTION": {
+  "Simple Chronic Bronchitis": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -1402,7 +2164,7 @@ diseases = {
       }
     ]
   },
-  "DIA_EMP_DESCRIPTION": {
+  "Emphysema": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -1445,7 +2207,7 @@ diseases = {
       }
     ]
   },
-  "DIA_CPD_DESCRIPTION": {
+  "Chronic obstructive pulmonary disease": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -1513,7 +2275,7 @@ diseases = {
       }
     ]
   },
-  "DIA_ASM_DESCRIPTION": {
+  "Asthma": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -1551,7 +2313,7 @@ diseases = {
       }
     ]
   },
-  "DIA_PMX_DESCRIPTION": {
+  "Pneumothorax": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -1599,7 +2361,7 @@ diseases = {
       }
     ]
   },
-  "DIA_CEL_DESCRIPTION": {
+  "Cellulitis": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -1623,12 +2385,12 @@ diseases = {
       },
       {
         "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 50,
+        "ProbabilityPercent": 0,
         "GameDBSymptomRef": "SYM_REDNESS_OF_SKIN"
       },
       {
         "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 30,
+        "ProbabilityPercent": 0,
         "GameDBSymptomRef": "SYM_PAINFUL_VESICULAR_RASH"
       },
       {
@@ -1637,50 +2399,7 @@ diseases = {
       }
     ]
   },
-  "DIA_ADS_DESCRIPTION": {
-    "Symptoms": [
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 70,
-        "GameDBSymptomRef": "SYM_REDNESS_OF_SKIN"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 70,
-        "GameDBSymptomRef": "SYM_ITCHING"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 40,
-        "GameDBSymptomRef": "SYM_RASH_ON_ARM"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 40,
-        "GameDBSymptomRef": "SYM_RASH_ON_LEG"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 20,
-        "GameDBSymptomRef": "SYM_RASH_ON_NECK"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 20,
-        "GameDBSymptomRef": "SYM_RASH_ON_TORSO"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 50,
-        "GameDBSymptomRef": "SYM_PETECHIAE"
-      },
-      {
-        "ProbabilityPercent": 100,
-        "GameDBSymptomRef": "SYM_ATOPIC_ECZEMA_FINDINGS"
-      }
-    ]
-  },
-  "DIA_LUP_DESCRIPTION": {
+  "Lupus": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -1758,7 +2477,7 @@ diseases = {
       },
       {
         "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 30,
+        "ProbabilityPercent": 0,
         "GameDBSymptomRef": "SYM_BUTTERFLY_RASH"
       },
       {
@@ -1778,7 +2497,7 @@ diseases = {
       }
     ]
   },
-  "TRM_PCT_DESCRIPTION": {
+  "Pulmonary Contusion - Blunt": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -1836,7 +2555,7 @@ diseases = {
       }
     ]
   },
-  "TRM_CMP_DESCRIPTION": {
+  "Carbon Monoxide Poisoning": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -1894,7 +2613,7 @@ diseases = {
       }
     ]
   },
-  "TRM_CGP_DESCRIPTION": {
+  "Chlorine Gas Poisoning": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -1957,7 +2676,7 @@ diseases = {
       }
     ]
   },
-  "TRM_MTP_DESCRIPTION": {
+  "Methanol Poisoning": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -1995,7 +2714,7 @@ diseases = {
       }
     ]
   },
-  "TRM_LDP_DESCRIPTION": {
+  "Lead Poisoning": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -2014,7 +2733,7 @@ diseases = {
       },
       {
         "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 70,
+        "ProbabilityPercent": 0,
         "GameDBSymptomRef": "SYM_TREMOR"
       },
       {
@@ -2048,7 +2767,7 @@ diseases = {
       }
     ]
   },
-  "DIA_052_DESCRIPTION": {
+  "Pleurisy": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -2097,7 +2816,7 @@ diseases = {
       },
       {
         "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 70,
+        "ProbabilityPercent": 0,
         "GameDBSymptomRef": "SYM_SWELLING_JOINTS"
       },
       {
@@ -2116,7 +2835,7 @@ diseases = {
       }
     ]
   },
-  "DIA_053_DESCRIPTION": {
+  "Asbestosis": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -2154,7 +2873,7 @@ diseases = {
       }
     ]
   },
-  "DIA_054_DESCRIPTION": {
+  "Miliaria": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -2212,7 +2931,7 @@ diseases = {
       }
     ]
   },
-  "DIA_055_DESCRIPTION": {
+  "Ciguatera Fish Poisoning": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -2231,7 +2950,7 @@ diseases = {
       },
       {
         "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 50,
+        "ProbabilityPercent": 0,
         "GameDBSymptomRef": "SYM_ITCHING"
       },
       {
@@ -2260,7 +2979,7 @@ diseases = {
       }
     ]
   },
-  "DIA_056_DESCRIPTION": {
+  "Pleural Empyema": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -2303,7 +3022,7 @@ diseases = {
       }
     ]
   },
-  "DIA_057_DESCRIPTION": {
+  "Chylothorax": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -2341,7 +3060,7 @@ diseases = {
       }
     ]
   },
-  "DIA_058_DESCRIPTION": {
+  "Parapneumonic Effusion": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -2379,7 +3098,7 @@ diseases = {
       }
     ]
   },
-  "DIA_059_DESCRIPTION": {
+  "Cholesteatoma": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -2412,7 +3131,7 @@ diseases = {
       }
     ]
   },
-  "DIA_060_DESCRIPTION": {
+  "Croup": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -2450,7 +3169,7 @@ diseases = {
       }
     ]
   },
-  "DIA_061_DESCRIPTION": {
+  "Nasal Polyp": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -2473,7 +3192,7 @@ diseases = {
       }
     ]
   },
-  "DIA_062_DESCRIPTION": {
+  "Meniere's Disease": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -2507,7 +3226,7 @@ diseases = {
       },
       {
         "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 50,
+        "ProbabilityPercent": 0,
         "GameDBSymptomRef": "SYM_ANXIETY"
       },
       {
@@ -2516,7 +3235,7 @@ diseases = {
       }
     ]
   },
-  "DIA_063_DESCRIPTION": {
+  "Essential Thrombocythemia": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -2545,7 +3264,7 @@ diseases = {
       },
       {
         "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 70,
+        "ProbabilityPercent": 0,
         "GameDBSymptomRef": "SYM_NOSEBLEEDS"
       },
       {
@@ -2564,7 +3283,7 @@ diseases = {
       }
     ]
   },
-  "DIA_064_DESCRIPTION": {
+  "Poison Ivy Rash": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -2573,7 +3292,7 @@ diseases = {
       },
       {
         "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 70,
+        "ProbabilityPercent": 0,
         "GameDBSymptomRef": "SYM_ITCHING"
       },
       {
@@ -2602,7 +3321,7 @@ diseases = {
       }
     ]
   },
-  "TRM_001_DESCRIPTION": {
+  "Hemothorax": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -2645,7 +3364,7 @@ diseases = {
       }
     ]
   },
-  "TRM_002_DESCRIPTION": {
+  "Tension Pneumothorax": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -2693,7 +3412,7 @@ diseases = {
       }
     ]
   },
-  "DIA_CLC_DESCRIPTION": {
+  "Classical Cholera": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -2712,7 +3431,7 @@ diseases = {
       },
       {
         "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 60,
+        "ProbabilityPercent": 0,
         "GameDBSymptomRef": "SYM_CRAMPS"
       },
       {
@@ -2746,7 +3465,7 @@ diseases = {
       }
     ]
   },
-  "DIA_TYF_DESCRIPTION": {
+  "Typhoid Fever": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -2809,7 +3528,7 @@ diseases = {
       }
     ]
   },
-  "DIA_TBC_DESCRIPTION": {
+  "Tuberculosis of Lung": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -2892,7 +3611,7 @@ diseases = {
       }
     ]
   },
-  "DIA_TUL_DESCRIPTION": {
+  "Tularaemia": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -2960,7 +3679,7 @@ diseases = {
       }
     ]
   },
-  "DIA_PNA_DESCRIPTION": {
+  "Pulmonary Anthrax": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -3023,7 +3742,7 @@ diseases = {
       }
     ]
   },
-  "DIA_RBF_DESCRIPTION": {
+  "Rat-bite Fever": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -3066,7 +3785,7 @@ diseases = {
       }
     ]
   },
-  "DIA_CSD_DESCRIPTION": {
+  "Cat-Scratch Disease": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -3109,7 +3828,7 @@ diseases = {
       }
     ]
   },
-  "DIA_PTS_DESCRIPTION": {
+  "Pertussis": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -3152,7 +3871,7 @@ diseases = {
       }
     ]
   },
-  "DIA_LEG_DESCRIPTION": {
+  "Legionnaires Disease": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -3215,7 +3934,7 @@ diseases = {
       }
     ]
   },
-  "DIA_TPF_DESCRIPTION": {
+  "Typhus Fever": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -3263,7 +3982,7 @@ diseases = {
       }
     ]
   },
-  "DIA_ATS_DESCRIPTION": {
+  "American Trypanosomiasis": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -3326,7 +4045,7 @@ diseases = {
       }
     ]
   },
-  "DIA_TXM_DESCRIPTION": {
+  "Toxoplasmosis": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -3369,7 +4088,7 @@ diseases = {
       }
     ]
   },
-  "DIA_BAB_DESCRIPTION": {
+  "Babesios": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -3417,7 +4136,7 @@ diseases = {
       }
     ]
   },
-  "DIA_LYD_DESCRIPTION": {
+  "Lyme Disease": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -3475,7 +4194,7 @@ diseases = {
       }
     ]
   },
-  "DIA_MUM_DESCRIPTION": {
+  "Mumps": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -3495,7 +4214,7 @@ diseases = {
       {
         "DayOfFirstOccurence": 0,
         "ProbabilityPercent": 60,
-        "GameDBSymptomRef": "SYM_SWALLOV_PAIN"
+        "GameDBSymptomRef": "SYM_SWALLOW_PAIN"
       },
       {
         "DayOfFirstOccurence": 0,
@@ -3528,7 +4247,7 @@ diseases = {
       }
     ]
   },
-  "TRM_PLP_DESCRIPTION": {
+  "Pulmonary Laceration - Penetrating": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -3547,7 +4266,7 @@ diseases = {
       },
       {
         "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 70,
+        "ProbabilityPercent": 0,
         "GameDBSymptomRef": "SYM_PNEUMATOCELE"
       },
       {
@@ -3561,863 +4280,7 @@ diseases = {
       }
     ]
   },
-  "DIA_PTI_DESCRIPTION": {
-    "Symptoms": [
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_NAUSEA"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_ABDOMINAL_PAIN"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_FATIGUE"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_WEIGHT_LOSS"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 70,
-        "GameDBSymptomRef": "SYM_VITAMIN_DEFICIENCY"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_HUNGER"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 70,
-        "GameDBSymptomRef": "SYM_WEAKNESS"
-      },
-      {
-        "ProbabilityPercent": 100,
-        "GameDBSymptomRef": "SYM_PORK_TAPEWORM_PRESENT"
-      }
-    ]
-  },
-  "DIA_BTI_DESCRIPTION": {
-    "Symptoms": [
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_ABDOMINAL_PAIN"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_DIZZINESS"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_HEADACHE"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 70,
-        "GameDBSymptomRef": "SYM_LOSS_OF_APPETITE"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_WEIGHT_LOSS"
-      },
-      {
-        "ProbabilityPercent": 100,
-        "GameDBSymptomRef": "SYM_BEEF_TAPEWORM_PRESENT"
-      }
-    ]
-  },
-  "DIA_CKX_DESCRIPTION": {
-    "Symptoms": [
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_VOMITING"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_LOSS_OF_APPETITE"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_HEADACHE"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_MUSCLES_AND_JOINTS_PAIN"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 50,
-        "GameDBSymptomRef": "SYM_ITCHY_BLISTERS"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_FEVER"
-      },
-      {
-        "ProbabilityPercent": 100,
-        "GameDBSymptomRef": "SYM_PAPULAS_AND_VESICLES"
-      }
-    ]
-  },
-  "DIA_IDA_DESCRIPTION": {
-    "Symptoms": [
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 70,
-        "GameDBSymptomRef": "SYM_BREATHING_DIFFICULTIES"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_WEAKNESS"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_FATIGUE"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_CHEST_PAIN"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 20,
-        "GameDBSymptomRef": "SYM_CRUMBLY_NAIL"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 60,
-        "GameDBSymptomRef": "SYM_LOSS_OF_APPETITE"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 70,
-        "GameDBSymptomRef": "SYM_HEADACHE"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 10,
-        "GameDBSymptomRef": "SYM_HEMOGLOBIN_LOW"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 40,
-        "GameDBSymptomRef": "SYM_PALE_SKIN"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 60,
-        "GameDBSymptomRef": "SYM_DIZZINESS"
-      },
-      {
-        "ProbabilityPercent": 100,
-        "GameDBSymptomRef": "SYM_LOW_HEMATOCRIT"
-      }
-    ]
-  },
-  "DIA_LIN_DESCRIPTION": {
-    "Symptoms": [
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_DIARRHEA"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_NAUSEA"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 60,
-        "GameDBSymptomRef": "SYM_VOMITING"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_ABDOMINAL_CRAMPS"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 70,
-        "GameDBSymptomRef": "SYM_BLOATING"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 60,
-        "GameDBSymptomRef": "SYM_FLATULENCE"
-      },
-      {
-        "ProbabilityPercent": 100,
-        "GameDBSymptomRef": "SYM_LACTOSE_INTOLERANCE_DETECTED"
-      }
-    ]
-  },
-  "DIA_APH_DESCRIPTION": {
-    "Symptoms": [
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_RED_SWOLLEN_TONSILS"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_SWALLOW_PAIN"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_FEVER"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_SPUTUM_COUGH"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 70,
-        "GameDBSymptomRef": "SYM_SNEEZING"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 60,
-        "GameDBSymptomRef": "SYM_NAUSEA"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 60,
-        "GameDBSymptomRef": "SYM_VOMITING"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 60,
-        "GameDBSymptomRef": "SYM_DYSPHAGIA"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 60,
-        "GameDBSymptomRef": "SYM_HOARSENESS"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_MUSCLES_AND_JOINTS_PAIN"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 50,
-        "GameDBSymptomRef": "SYM_RASH"
-      },
-      {
-        "ProbabilityPercent": 100,
-        "GameDBSymptomRef": "SYM_WHITE_PATCHES_ON_TONSILS"
-      }
-    ]
-  },
-  "DIA_BRN_DESCRIPTION": {
-    "Symptoms": [
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_DRY_COUGH"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_FATIGUE"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_BREATHING_DIFFICULTIES"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_FEVER"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_CHILLS"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 70,
-        "GameDBSymptomRef": "SYM_CHEST_PAIN"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_HEADACHE"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_WHEEZING"
-      },
-      {
-        "ProbabilityPercent": 100,
-        "GameDBSymptomRef": "SYM_BRONCHIAL_INFECTION"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 20,
-        "GameDBSymptomRef": "SYM_LUNG_FINDINGS"
-      }
-    ]
-  },
-  "DIA_GEW_DESCRIPTION": {
-    "Symptoms": [
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 40,
-        "GameDBSymptomRef": "SYM_ELBOW_STIFFNESS"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_TENDERNESS"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 50,
-        "GameDBSymptomRef": "SYM_FINGER_NUMBNESS"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 50,
-        "GameDBSymptomRef": "SYM_HAND_WEAKNESS"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 50,
-        "GameDBSymptomRef": "SYM_ELBOW_PAIN"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 50,
-        "GameDBSymptomRef": "SYM_LIMITED_ARM_MOTION"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_FEVER"
-      },
-      {
-        "ProbabilityPercent": 100,
-        "GameDBSymptomRef": "SYM_ELBOW_TENDONS_DAMAGED"
-      }
-    ]
-  },
-  "DIA_SCS_DESCRIPTION": {
-    "Symptoms": [
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_BACK_PAIN"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_MUSCLE_WEAKNESS"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_NUMBNESS"
-      },
-      {
-        "ProbabilityPercent": 100,
-        "GameDBSymptomRef": "SYM_SCOLIOTIC_FINDINGS"
-      }
-    ]
-  },
-  "DIA_CFS_DESCRIPTION": {
-    "Symptoms": [
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 20,
-        "GameDBSymptomRef": "SYM_SORE_THROAT"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 60,
-        "GameDBSymptomRef": "SYM_MUSCLES_AND_JOINTS_PAIN"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 60,
-        "GameDBSymptomRef": "SYM_NIGHT_SWEATS"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_SLEEPING_DIFFICULTIES"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 20,
-        "GameDBSymptomRef": "SYM_TROUBLE_RISING"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_FATIGUE"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_WEAKNESS"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_LONG_REACT_TIME"
-      },
-      {
-        "ProbabilityPercent": 100,
-        "GameDBSymptomRef": "SYM_CHR._FATIGUE_SYNDROME"
-      }
-    ]
-  },
-  "DIA_INS_DESCRIPTION": {
-    "Symptoms": [
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_SLEEPING_DIFFICULTIES"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 60,
-        "GameDBSymptomRef": "SYM_IRRITABILITY"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_DEPRESSION"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 20,
-        "GameDBSymptomRef": "SYM_ANXIETY"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 60,
-        "GameDBSymptomRef": "SYM_CONFUSION"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_LONG_REACT_TIME"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_FATIGUE"
-      },
-      {
-        "ProbabilityPercent": 100,
-        "GameDBSymptomRef": "SYM_INSOMNIA_REVEALED"
-      }
-    ]
-  },
-  "TRM_ACT_DESCRIPTION": {
-    "Symptoms": [
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_INJURY_TO_THE_ARM"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_PAIN"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 90,
-        "GameDBSymptomRef": "SYM_LIMITED_ARM_MOTION"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_SWELLING"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_REDNESS"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_BRUISE"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_TENDERNESS"
-      },
-      {
-        "ProbabilityPercent": 100,
-        "GameDBSymptomRef": "SYM_FOREARM_CONTUSION"
-      }
-    ]
-  },
-  "TRM_HCT_DESCRIPTION": {
-    "Symptoms": [
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_INJURY_TO_THE_HAND"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_HAND_PAIN"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_HAND_WEAKNESS"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_SWELLING"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 70,
-        "GameDBSymptomRef": "SYM_REDNESS"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_BRUISE"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_TENDERNESS"
-      },
-      {
-        "ProbabilityPercent": 100,
-        "GameDBSymptomRef": "SYM_WRIST_CONTUSION"
-      }
-    ]
-  },
-  "TRM_FCT_DESCRIPTION": {
-    "Symptoms": [
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_INJURY_TO_THE_FOOT"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_WARMTH"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_SWELLING"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_PAIN"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_BRUISE"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_TENDERNESS"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_LIMITED_LEG_MOTION"
-      },
-      {
-        "ProbabilityPercent": 100,
-        "GameDBSymptomRef": "SYM_INSTEP_CONTUSION"
-      }
-    ]
-  },
-  "TRM_ACN_DESCRIPTION": {
-    "Symptoms": [
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_ANKLE_INJURY"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_WARMTH"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_SWELLING"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_PAIN"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_ANKLE_BRUISE"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 70,
-        "GameDBSymptomRef": "SYM_INABILITY_TO_MOVE_THE_JOINT"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_TENDERNESS"
-      },
-      {
-        "ProbabilityPercent": 100,
-        "GameDBSymptomRef": "SYM_ANKLE_CONTUSION"
-      }
-    ]
-  },
-  "TRM_LCT_DESCRIPTION": {
-    "Symptoms": [
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_INJURY_TO_THE_LEG"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_PAIN"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_LIMITED_LEG_MOTION"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 60,
-        "GameDBSymptomRef": "SYM_SWELLING"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 20,
-        "GameDBSymptomRef": "SYM_REDNESS"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_TENDERNESS"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_BRUISE"
-      },
-      {
-        "ProbabilityPercent": 100,
-        "GameDBSymptomRef": "SYM_CALF_CONTUSION"
-      }
-    ]
-  },
-  "TRM_CCT_DESCRIPTION": {
-    "Symptoms": [
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_INJURY_TO_THE_CHEST"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_PAIN"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_SWELLING"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "GameDBSymptomRef": "SYM_TENDERNESS"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_BREATHING_DIFFICULTIES"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_REDNESS"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_BRUISE"
-      },
-      {
-        "ProbabilityPercent": 100,
-        "GameDBSymptomRef": "SYM_THORAX_CONTUSION"
-      }
-    ]
-  },
-  "DIA_046_DESCRIPTION": {
-    "Symptoms": [
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 90,
-        "GameDBSymptomRef": "SYM_CHILLS"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 90,
-        "GameDBSymptomRef": "SYM_FEVER"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 90,
-        "GameDBSymptomRef": "SYM_MUSCLES_AND_JOINTS_PAIN"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 90,
-        "GameDBSymptomRef": "SYM_MALAISE"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 90,
-        "GameDBSymptomRef": "SYM_FATIGUE"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 90,
-        "GameDBSymptomRef": "SYM_HEADACHE"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 90,
-        "GameDBSymptomRef": "SYM_SORE_THROAT"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 90,
-        "GameDBSymptomRef": "SYM_IRRITABLE_COUGH"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 90,
-        "GameDBSymptomRef": "SYM_NASAL_CONGESTION"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 90,
-        "GameDBSymptomRef": "SYM_SNEEZING"
-      },
-      {
-        "ProbabilityPercent": 100,
-        "GameDBSymptomRef": "SYM_INFLUENZA_B_DETECTED"
-      }
-    ]
-  },
-  "DIA_INF_DESCRIPTION": {
-    "Symptoms": [
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_CHILLS"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_FEVER"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_MUSCLES_AND_JOINTS_PAIN"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_MALAISE"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_FATIGUE"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_HEADACHE"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 70,
-        "GameDBSymptomRef": "SYM_SORE_THROAT"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 70,
-        "GameDBSymptomRef": "SYM_IRRITABLE_COUGH"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_NASAL_CONGESTION"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
-        "GameDBSymptomRef": "SYM_SNEEZING"
-      },
-      {
-        "ProbabilityPercent": 100,
-        "GameDBSymptomRef": "SYM_INFLUENZA_A_DETECTED"
-      }
-    ]
-  },
-  "DIA_CTS_DESCRIPTION": {
+  "Carpal Tunnel Syndrome": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -4426,12 +4289,12 @@ diseases = {
       },
       {
         "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 70,
+        "ProbabilityPercent": 0,
         "GameDBSymptomRef": "SYM_WRIST_PAIN"
       },
       {
         "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 60,
+        "ProbabilityPercent": 0,
         "GameDBSymptomRef": "SYM_CRAMPS"
       },
       {
@@ -4455,7 +4318,7 @@ diseases = {
       }
     ]
   },
-  "DIA_RAT_DESCRIPTION": {
+  "Rheumatoid Arthiritis": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -4484,12 +4347,12 @@ diseases = {
       },
       {
         "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 70,
+        "ProbabilityPercent": 0,
         "GameDBSymptomRef": "SYM_REDNESS_OF_SKIN"
       },
       {
         "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 70,
+        "ProbabilityPercent": 0,
         "GameDBSymptomRef": "SYM_SWELLING_JOINTS"
       },
       {
@@ -4528,7 +4391,7 @@ diseases = {
       }
     ]
   },
-  "DIA_HOA_DESCRIPTION": {
+  "Hip Osteoarthritis": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -4581,7 +4444,7 @@ diseases = {
       }
     ]
   },
-  "DIA_KOA_DESCRIPTION": {
+  "Knee Osteoarthritis": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -4624,7 +4487,7 @@ diseases = {
       }
     ]
   },
-  "DIA_DMS_DESCRIPTION": {
+  "Dermatomyositis": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -4682,7 +4545,7 @@ diseases = {
       }
     ]
   },
-  "DIA_OSM_DESCRIPTION": {
+  "Osteomyelitis": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -4725,11 +4588,11 @@ diseases = {
       }
     ]
   },
-  "DIA_BOH_DESCRIPTION": {
+  "Bursitis of Hand": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 70,
+        "ProbabilityPercent": 0,
         "GameDBSymptomRef": "SYM_WRIST_PAIN"
       },
       {
@@ -4763,7 +4626,7 @@ diseases = {
       }
     ]
   },
-  "DIA_AOM_DESCRIPTION": {
+  "Adult Osteomalacia": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -4782,7 +4645,7 @@ diseases = {
       },
       {
         "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 60,
+        "ProbabilityPercent": 0,
         "GameDBSymptomRef": "SYM_FREQUENT_FALLING"
       },
       {
@@ -4816,7 +4679,7 @@ diseases = {
       }
     ]
   },
-  "DIA_OLB_DESCRIPTION": {
+  "Olecranon Bursitis": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -4859,7 +4722,7 @@ diseases = {
       }
     ]
   },
-  "DIA_BOT_DESCRIPTION": {
+  "Bursitis of Knee": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -4907,7 +4770,7 @@ diseases = {
       }
     ]
   },
-  "TRM_DWH_DESCRIPTION": {
+  "Deep Wound Hand": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -4926,7 +4789,7 @@ diseases = {
       },
       {
         "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
+        "ProbabilityPercent": 0,
         "GameDBSymptomRef": "SYM_DEGLOVED_SKIN"
       },
       {
@@ -4951,7 +4814,7 @@ diseases = {
       }
     ]
   },
-  "TRM_DWA_DESCRIPTION": {
+  "Deep Wound Arm": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -4990,7 +4853,7 @@ diseases = {
       }
     ]
   },
-  "TRM_DWL_DESCRIPTION": {
+  "Deep Wound Leg": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -5028,7 +4891,7 @@ diseases = {
       }
     ]
   },
-  "TRM_DWF_DESCRIPTION": {
+  "Deep Wound Feet": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -5047,7 +4910,7 @@ diseases = {
       },
       {
         "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 80,
+        "ProbabilityPercent": 0,
         "GameDBSymptomRef": "SYM_DEGLOVED_SKIN"
       },
       {
@@ -5071,7 +4934,7 @@ diseases = {
       }
     ]
   },
-  "TRM_SHS_DESCRIPTION": {
+  "Shoulder Sprain": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -5119,7 +4982,7 @@ diseases = {
       }
     ]
   },
-  "TRM_KSP_DESCRIPTION": {
+  "Knee Sprain": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -5167,7 +5030,7 @@ diseases = {
       }
     ]
   },
-  "TRM_ASP_DESCRIPTION": {
+  "Ankle Sprain": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -5215,7 +5078,7 @@ diseases = {
       }
     ]
   },
-  "TRM_ACL_DESCRIPTION": {
+  "acl tear": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -5248,7 +5111,7 @@ diseases = {
       }
     ]
   },
-  "TRM_SFU_DESCRIPTION": {
+  "Simple Fracture Ulna": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -5291,7 +5154,7 @@ diseases = {
       }
     ]
   },
-  "TRM_OFU_DESCRIPTION": {
+  "Open Fracture Ulnar": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -5335,7 +5198,7 @@ diseases = {
       }
     ]
   },
-  "TRM_SFR_DESCRIPTION": {
+  "Simple Fracture Radius": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -5378,7 +5241,7 @@ diseases = {
       }
     ]
   },
-  "TRM_SFH_DESCRIPTION": {
+  "Simple Fracture Humerus": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -5421,7 +5284,7 @@ diseases = {
       }
     ]
   },
-  "TRM_OFH_DESCRIPTION": {
+  "Open Fracture Humerus": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -5464,7 +5327,7 @@ diseases = {
       }
     ]
   },
-  "TRM_SFF_DESCRIPTION": {
+  "Simple Femur Fracture": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -5507,7 +5370,7 @@ diseases = {
       }
     ]
   },
-  "TRM_OFF_DESCRIPTION": {
+  "Open Fracture Femur": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -5550,7 +5413,7 @@ diseases = {
       }
     ]
   },
-  "TRM_SFT_DESCRIPTION": {
+  "Simple Fracture Tibia": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -5593,7 +5456,7 @@ diseases = {
       }
     ]
   },
-  "TRM_SPT_DESCRIPTION": {
+  "Spiral Fracture Tibia": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -5636,7 +5499,7 @@ diseases = {
       }
     ]
   },
-  "TRM_SFI_DESCRIPTION": {
+  "Simple Fracture Fibula": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -5679,7 +5542,7 @@ diseases = {
       }
     ]
   },
-  "TRM_OFT_DESCRIPTION": {
+  "Open Fracture Tibia": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -5722,7 +5585,7 @@ diseases = {
       }
     ]
   },
-  "TRM_ANF_DESCRIPTION": {
+  "Ankle Fracture": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
@@ -5780,7 +5643,7 @@ diseases = {
       }
     ]
   },
-  "TRM_FOF_DESCRIPTION": {
+  "Finger Fracture": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
