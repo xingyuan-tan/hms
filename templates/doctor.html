@@ -24,27 +24,28 @@
         </div>
 
         <div class="row">
-            <div class="col p-3">
-                <h1>Possible Diagnosis</h1>
-                <ul id="diagnosis-list" class="list-group"></ul>
+            <div class="col-6 p-3">
+                <h1 id="possible-diagnosis-header">Possible Diagnoses</h1>
+                <p id="diagnoses-found" style="display: inline;">No</p> Diagnoses Found, 
+                
+                <a href="#possible-exam-header" >Go To Possible Examinations</a>
+                <ul id="diagnosis-list" class="list-group my-2"></ul>
             </div>
-        </div>
-
-        <div class="row">
-            <div class="col-5 p-3">
-                <h1>Symptoms</h1>
+            <div class="col-6 p-3">
+                <h1>Discovered Symptoms</h1>
                 <ul id="symptom-list" class="list-group"></ul>
             </div>
         </div>
 
         <div class="row">
-            <div class="col p-3">
-                <h1>Possible Examination</h1>
+            <div class="col-6 p-3">
+                <h1 id="possible-exam-header">Possible Examinations</h1>
+                <a href="#possible-diagnosis-header" >Back To Possible Diagnoses</a>
                 <ul id="possible-exam-list" class="list-group"></ul>
             </div>
 
-            <div class="col-5 p-3">
-                <h1>Completed Examination</h1>
+            <div class="col-6 p-3">
+                <h1>Completed Examinations</h1>
                 <ul id="completed-exam-list" class="list-group"></ul>
             </div>
         </div>

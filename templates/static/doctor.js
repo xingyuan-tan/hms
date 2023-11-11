@@ -4,6 +4,7 @@ var symptomList = document.getElementById("symptom-list")
 var completedExamList = document.getElementById("completed-exam-list")
 var possibleExamList = document.getElementById("possible-exam-list")
 var diagnosisList = document.getElementById("diagnosis-list")
+var diagnosesFound = document.getElementById("diagnoses-found")
 
 
 
@@ -11,6 +12,7 @@ const URL = window.location.host;
 
 btnFetchPatient.onclick = function () {
     console.log('Fetch Patient');
+    console.log(URL)
     fetch('http://' + URL + '/patient-data/' + selectedPatient.value)
         .then(response => {
             if (!response.ok) {
@@ -39,18 +41,20 @@ btnFetchPatient.onclick = function () {
 
 
 function updatePatient(data) {
+    console.log("Updating Patient Data")
     patient = data.data.patient;
-    console.log(data.data)
+    // console.log(data.data)
     data = data.data;
 
     symptomList.textContent = '';
     completedExamList.textContent = '';
     possibleExamList.textContent = '';
     diagnosisList.textContent = '';
+    diagnosesFound.textContent = 'No';
 
     console.log('Update Symptoms');
     Object.keys(patient['symptoms']).forEach(function(key){
-        console.log(key, patient['symptoms'][key]);
+        // console.log(key, patient['symptoms'][key]);
 
         if (patient['symptoms'][key]) {
             console.log(patient['symptoms'][key]);
@@ -78,15 +82,26 @@ function updatePatient(data) {
         possibleExamList.appendChild(newItem);
     });
 
+    console.log('Update Diagnosis')
+    if (data['diagnoses'] == null) {
+        const newItem = document.createElement('li');
+        newItem.className = 'list-group-item list-group-item-danger';
+        newItem.textContent = "You have not completed any examination yet";
+        diagnosisList.appendChild(newItem);
+    }
+    else {
+        Object.keys(data['diagnoses']).forEach(function(key){
 
-    Object.keys(data['diagnoses']).forEach(function(key){
-        console.log(key, data['diagnoses'][key]);
+            if (data['diagnoses'][key]) {
+                const newItem = document.createElement('li');
+                newItem.className = 'list-group-item';
+                newItem.textContent = data['diagnoses'][key];
+                diagnosisList.appendChild(newItem);
+            }
+    
+        });
+        diagnosesFound.textContent = Object.keys(data['diagnoses']).length;
+    }
 
-        if (data['diagnoses'][key]) {
-            const newItem = document.createElement('li');
-            newItem.className = 'list-group-item';
-            newItem.textContent = data['diagnoses'][key];
-            diagnosisList.appendChild(newItem);
-        }
-    });
+    console.log("Update Patient Data Completed")
 }
