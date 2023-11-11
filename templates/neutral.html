@@ -23,32 +23,42 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-2 p-3">
-                <h1>Diseases:</h1>
+            <div class="col-auto p-3">
+                <h1>Disease:</h1>
+                <h2 id="patient-disease" style="color:red"></h2>
             </div>
         </div>
 
         <div class="row">
             <div class="col-6 p-3">
                 <h1>Undiscovered</h1>
+                <ul id="undiscovered-list" class="list-group"></ul>
             </div>
             <div class="col-6 p-3">
                 <h1>Discovered</h1>
+                <ul id="discovered-list" class="list-group"></ul>
             </div>
         </div>
 
         <div class="row">
-            <h1>Examination</h1>
-
-            <div class="col-2 p-3">
-                <select id="selected-examine" class="form-control input-sm">
-
-                </select>
+            
+            <div class="col-6 p-3">
+                <h1>Examination</h1>
+                <div class="row">
+                    <div class="col-8">
+                        <select id="selected-examine" class="form-control input-sm w-100" style="display:inline">
+                        </select>
+                    </div>
+                    <div class="col-4">
+                        <button id="fetch-examine" class="btn btn-primary " style="display:inline">Select Examination</button>
+                    </div>
+                </div>
             </div>
 
-            <div class="col p-3">
-                <button id="fetch-examine" class="btn btn-primary">Select Examination</button>
-            </div>
+            <div class="col-6 p-3">
+                <h1>Completed Examinations:</h1>
+                <ul id="completed-exam-list"></ul>
+            </div>  
         </div>
 
     </div>

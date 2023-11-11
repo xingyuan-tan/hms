@@ -11,6 +11,7 @@ const URL = window.location.host;
 
 btnFetchPatient.onclick = function () {
     console.log('Fetch Patient');
+    console.log(URL)
     fetch('http://' + URL + '/patient-data/' + selectedPatient.value)
         .then(response => {
             if (!response.ok) {
@@ -39,8 +40,9 @@ btnFetchPatient.onclick = function () {
 
 
 function updatePatient(data) {
+    console.log("Updating Patient Data")
     patient = data.data.patient;
-    console.log(data.data)
+    // console.log(data.data)
     data = data.data;
 
     symptomList.textContent = '';
@@ -50,7 +52,7 @@ function updatePatient(data) {
 
     console.log('Update Symptoms');
     Object.keys(patient['symptoms']).forEach(function(key){
-        console.log(key, patient['symptoms'][key]);
+        // console.log(key, patient['symptoms'][key]);
 
         if (patient['symptoms'][key]) {
             console.log(patient['symptoms'][key]);
@@ -80,7 +82,7 @@ function updatePatient(data) {
 
 
     Object.keys(data['diagnoses']).forEach(function(key){
-        console.log(key, data['diagnoses'][key]);
+        // console.log(key, data['diagnoses'][key]);
 
         if (data['diagnoses'][key]) {
             const newItem = document.createElement('li');
@@ -89,4 +91,6 @@ function updatePatient(data) {
             diagnosisList.appendChild(newItem);
         }
     });
+
+    console.log("Update Patient Data Completed")
 }
