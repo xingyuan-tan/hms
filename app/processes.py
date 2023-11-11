@@ -46,3 +46,4 @@ def rip_json(d_json, name='untitled'):
 
     with open(str(name)+'.json', 'w') as f:
         json.dump(output, f)
+    print("done")

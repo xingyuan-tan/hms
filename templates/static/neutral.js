@@ -22,10 +22,11 @@ btnFetchPatient.onclick = function () {
         })
         .then((data) => {
             // 'data' now contains the JSON data
-            updatePatient(data);
+            updateExamine(data);
             console.log(data);
         })
         .catch((error) => {
             console.error('Fetch error:', error);
         });
 };
+

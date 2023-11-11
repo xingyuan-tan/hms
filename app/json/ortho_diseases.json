@@ -1,0 +1,1418 @@
+{
+  "Carpal Tunnel Syndrome": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_FINGER_NUMBNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 0,
+        "GameDBSymptomRef": "SYM_WRIST_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 0,
+        "GameDBSymptomRef": "SYM_CRAMPS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_HAND_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_HAND_WEAKNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_THUMB_PAIN"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_MEDIAN_NERVE_COMPRESSION"
+      }
+    ]
+  },
+  "Rheumatoid Arthiritis": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 50,
+        "GameDBSymptomRef": "SYM_FATIGUE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 50,
+        "GameDBSymptomRef": "SYM_FEVER"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 60,
+        "GameDBSymptomRef": "SYM_WEIGHT_LOSS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 60,
+        "GameDBSymptomRef": "SYM_CRP_HIGH"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 0,
+        "GameDBSymptomRef": "SYM_REDNESS_OF_SKIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 0,
+        "GameDBSymptomRef": "SYM_SWELLING_JOINTS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 50,
+        "GameDBSymptomRef": "SYM_STIFFNESS_OF_THE_JOINTS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 50,
+        "GameDBSymptomRef": "SYM_STIFFNESS_IN_THE_KNEE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 50,
+        "GameDBSymptomRef": "SYM_STIFFNESS_IN_THE_HIP"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 60,
+        "GameDBSymptomRef": "SYM_WALKING_DIFFICULTIES"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 60,
+        "GameDBSymptomRef": "SYM_ANEMIA"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_RHEUMATOID_FACTOR"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 30,
+        "GameDBSymptomRef": "SYM_OSTEOPOROSIS"
+      }
+    ]
+  },
+  "Hip Osteoarthritis": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 50,
+        "GameDBSymptomRef": "SYM_WADDLING_GAIT"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 0,
+        "GameDBSymptomRef": "SYM_ASTASIS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 60,
+        "GameDBSymptomRef": "SYM_SLEEPING_DIFFICULTIES"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_ABDOMINAL_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_WALKING_DIFFICULTIES"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 60,
+        "GameDBSymptomRef": "SYM_LIMITED_LEG_MOTION"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_STIFFNESS_IN_THE_HIP"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_BACK_PAIN"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_HIP_JOINTS_DAMAGED"
+      }
+    ]
+  },
+  "Knee Osteoarthritis": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_SWELLING_KNEE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 0,
+        "GameDBSymptomRef": "SYM_ASTASIS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 60,
+        "GameDBSymptomRef": "SYM_WALKING_DIFFICULTIES"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 50,
+        "GameDBSymptomRef": "SYM_WADDLING_GAIT"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_LIMITED_LEG_MOTION"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_STIFFNESS_IN_THE_KNEE"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_KNEE_JOINT_DAMAGED"
+      }
+    ]
+  },
+  "Dermatomyositis": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_TROUBLE_RISING"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 60,
+        "GameDBSymptomRef": "SYM_HOARSENESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 60,
+        "GameDBSymptomRef": "SYM_FATIGUE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_WEAKNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_MUSCLE_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 60,
+        "GameDBSymptomRef": "SYM_WEIGHT_LOSS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_TENDERNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_FEVER"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_RASH"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_CREATINE_KINASE_HIGH"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_MUSCLES_INFLAMMED"
+      }
+    ]
+  },
+  "Osteomyelitis": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_FEVER"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_CHILLS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 60,
+        "GameDBSymptomRef": "SYM_IRRITABILITY"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_SWELLING_LIMBS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_REDNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 50,
+        "GameDBSymptomRef": "SYM_LEUKOCYTOSIS"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_BONE_INFECTED"
+      }
+    ]
+  },
+  "Bursitis of Hand": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 0,
+        "GameDBSymptomRef": "SYM_WRIST_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_HAND_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 60,
+        "GameDBSymptomRef": "SYM_HAND_WEAKNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_SWELLING"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 40,
+        "GameDBSymptomRef": "SYM_REDNESS_OF_SWELLING"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 60,
+        "GameDBSymptomRef": "SYM_FEVER"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_HAND_BURSAE_INFLAMMED"
+      }
+    ]
+  },
+  "Adult Osteomalacia": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_MUSCLE_WEAKNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_WEAKNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 0,
+        "GameDBSymptomRef": "SYM_FREQUENT_FALLING"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 0,
+        "GameDBSymptomRef": "SYM_ASTASIS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_HYPOCALCAEMIA"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_OSTEOPOROSIS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_FATIGUE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_VITAMIN_DEFICIENCY"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_PSEUDOFRACTURES"
+      }
+    ]
+  },
+  "Olecranon Bursitis": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_ELBOW_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_TENDERNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_SWELLING"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_LIMITED_ARM_MOTION"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 40,
+        "GameDBSymptomRef": "SYM_REDNESS_OF_SWELLING"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 60,
+        "GameDBSymptomRef": "SYM_ELBOW_STIFFNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 60,
+        "GameDBSymptomRef": "SYM_FEVER"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_OLECRANON_BURSAE_INFLAMMED"
+      }
+    ]
+  },
+  "Bursitis of Knee": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_STIFFNESS_IN_THE_KNEE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_SWELLING_KNEE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 40,
+        "GameDBSymptomRef": "SYM_REDNESS_OF_SWELLING"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_LIMITED_LEG_MOTION"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 60,
+        "GameDBSymptomRef": "SYM_RASH"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 60,
+        "GameDBSymptomRef": "SYM_FEVER"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_TENDERNESS"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_KNEE_BURSAE_INFLAMMED"
+      }
+    ]
+  },
+  "Deep Wound Hand": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_INJURY_TO_THE_HAND"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_SKIN_AVULSION"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 0,
+        "GameDBSymptomRef": "SYM_DEGLOVED_SKIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_OPEN_WOUND"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_MUSCLES_AND_SKIN_DAMAGED"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_HAND_PENETRATION"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 30,
+        "GameDBSymptomRef": "SYM_INFECTED_WOUND"
+      }
+    ]
+  },
+  "Deep Wound Arm": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_INJURY_TO_THE_ARM"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_SKIN_AVULSION"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_OPEN_WOUND"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_MUSCLES_AND_SKIN_DAMAGED"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_ARM_PENETRATION"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 30,
+        "GameDBSymptomRef": "SYM_INFECTED_WOUND"
+      }
+    ]
+  },
+  "Deep Wound Leg": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_INJURY_TO_THE_LEG"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_SKIN_AVULSION"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_OPEN_WOUND"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_MUSCLES_AND_SKIN_DAMAGED"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_LEG_PENETRATION"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 30,
+        "GameDBSymptomRef": "SYM_INFECTED_WOUND"
+      }
+    ]
+  },
+  "Deep Wound Feet": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_INJURY_TO_THE_LEG"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_SKIN_AVULSION"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 0,
+        "GameDBSymptomRef": "SYM_DEGLOVED_SKIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_OPEN_WOUND"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_MUSCLES_AND_SKIN_DAMAGED"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_FEET_PENETRATION"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 50,
+        "GameDBSymptomRef": "SYM_INFECTED_WOUND"
+      }
+    ]
+  },
+  "Shoulder Sprain": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_SHOULDER_INJURY"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_STIFFNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_WARMTH"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_SWELLING"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_SPASMS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_BRUISE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_LIMITED_ARM_MOTION"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_SHOULDER_SPRAIN"
+      }
+    ]
+  },
+  "Knee Sprain": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_KNEE_INJURY"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_STIFFNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_WARMTH"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_SWELLING"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_SPASMS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_BRUISE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_LIMITED_LEG_MOTION"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_KNEE_SPRAIN"
+      }
+    ]
+  },
+  "Ankle Sprain": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_ANKLE_INJURY"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_STIFFNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_WARMTH"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_SWELLING"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_SPASMS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_BRUISE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_LIMITED_LEG_MOTION"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_ANKLE_SPRAIN"
+      }
+    ]
+  },
+  "acl tear": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_KNEE_INJURY"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_SWELLING"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_WALKING_DIFFICULTIES"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_LIMITED_LEG_MOTION"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_ACL_INJURY"
+      }
+    ]
+  },
+  "Simple Fracture Ulna": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_INJURY_TO_THE_ARM"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_LIMITED_ARM_MOTION"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_SWELLING"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_REDNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_BRUISE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_TENDERNESS"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_ULNA_FRACTURE"
+      }
+    ]
+  },
+  "Open Fracture Ulnar": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_INJURY_TO_THE_ARM"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_OPEN_WOUND"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_SEVERE_ARM_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_DIZZINESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_BONE_FRACTURE_VISIBLE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_MUSCLES_AND_SKIN_DAMAGED"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_DEPICTION_OF_ULNAR_FRACTURE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 20,
+        "GameDBSymptomRef": "SYM_HYPOVOLEMIC_SHOCK"
+      }
+    ]
+  },
+  "Simple Fracture Radius": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_INJURY_TO_THE_ARM"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_LIMITED_ARM_MOTION"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_SWELLING"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_REDNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_TENDERNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_BRUISE"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_RADIUS_FRACTURE"
+      }
+    ]
+  },
+  "Simple Fracture Humerus": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_INJURY_TO_THE_ARM"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_LIMITED_ARM_MOTION"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_SWELLING"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_REDNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_TENDERNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_BRUISE"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_HUMERUS_FRACTURE"
+      }
+    ]
+  },
+  "Open Fracture Humerus": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_INJURY_TO_THE_ARM"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_OPEN_WOUND"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_SEVERE_ARM_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_DIZZINESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_BONE_FRACTURE_VISIBLE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_MUSCLES_AND_SKIN_DAMAGED"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_DEPICTION_OF_HUMERUS_FRACTURE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 20,
+        "GameDBSymptomRef": "SYM_HYPOVOLEMIC_SHOCK"
+      }
+    ]
+  },
+  "Simple Femur Fracture": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_INJURY_TO_THE_LEG"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_LIMITED_LEG_MOTION"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_SWELLING"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_REDNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_TENDERNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_BRUISE"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_FEMUR_FRACTURE"
+      }
+    ]
+  },
+  "Open Fracture Femur": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_INJURY_TO_THE_LEG"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_OPEN_WOUND"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_SEVERE_LEG_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_DIZZINESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_BONE_FRACTURE_VISIBLE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_MUSCLES_AND_SKIN_DAMAGED"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_DEPICTION_OF_FEMUR_FRACTURE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 20,
+        "GameDBSymptomRef": "SYM_HYPOVOLEMIC_SHOCK"
+      }
+    ]
+  },
+  "Simple Fracture Tibia": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_INJURY_TO_THE_LEG"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_LIMITED_LEG_MOTION"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_SWELLING"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_REDNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_TENDERNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_BRUISE"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_TIBIA_FRACTURE"
+      }
+    ]
+  },
+  "Spiral Fracture Tibia": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_INJURY_TO_THE_LEG"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_LIMITED_LEG_MOTION"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_SWELLING"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_REDNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_TENDERNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_BRUISE"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_TIBIA_SPIRAL_FRACTURE"
+      }
+    ]
+  },
+  "Simple Fracture Fibula": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_INJURY_TO_THE_LEG"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_LIMITED_LEG_MOTION"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_SWELLING"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_REDNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_TENDERNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_BRUISE"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_FIBULA_FRACTURE"
+      }
+    ]
+  },
+  "Open Fracture Tibia": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_INJURY_TO_THE_LEG"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_OPEN_WOUND"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_SEVERE_LEG_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_DIZZINESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_BONE_FRACTURE_VISIBLE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_MUSCLES_AND_SKIN_DAMAGED"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_DEPICTION_OF_TIBIA_FRACTURE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 20,
+        "GameDBSymptomRef": "SYM_HYPOVOLEMIC_SHOCK"
+      }
+    ]
+  },
+  "Ankle Fracture": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_ANKLE_INJURY"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_STIFFNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_WARMTH"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_SWELLING"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 60,
+        "GameDBSymptomRef": "SYM_SPASMS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_ANKLE_BRUISE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_INABILITY_TO_MOVE_THE_JOINT"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_TENDERNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_LIMITED_LEG_MOTION"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_ANKLE_FRACTURE"
+      }
+    ]
+  },
+  "Finger Fracture": {
+    "Symptoms": [
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_INJURY_TO_THE_HAND"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_STIFFNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_WARMTH"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_SWELLING"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 60,
+        "GameDBSymptomRef": "SYM_SPASMS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_HAND_PAIN"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_BRUISE"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 80,
+        "GameDBSymptomRef": "SYM_TENDERNESS"
+      },
+      {
+        "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 70,
+        "GameDBSymptomRef": "SYM_HAND_WEAKNESS"
+      },
+      {
+        "ProbabilityPercent": 100,
+        "GameDBSymptomRef": "SYM_FINGER_FRACTURE"
+      }
+    ]
+  }
+}
