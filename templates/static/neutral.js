@@ -1,6 +1,15 @@
 var btnFetchPatient = document.getElementById("fetch-patient");
+var btnSendExamine = document.getElementById("send-examine");
 var selectedPatient = document.getElementById("selected-patient");
+var selectedExamine = document.getElementById("selected-examine");
 
+const URL = window.location.host;
+
+btnSendExamine.onclick = function() {
+    console.log("Sending examination");
+    fetch('http://' + URL + '/examine?patient_id='+selectedPatient.value+'&examination='+selectedExamine.value);
+    //update info screen
+};
 
 btnFetchPatient.onclick = function () {
     console.log('Fetch Patient');

@@ -16,7 +16,7 @@ for dis in diseases:
     patient['patient_id']=i
     patient['disease'] = dis
     patient['symptoms'] = {}
-    patient['examined'] = {}
+    patient['examined'] = []
 
     for sym in diseases[dis]['Symptoms']:
         patient['symptoms'][sym['GameDBSymptomRef']] = False
