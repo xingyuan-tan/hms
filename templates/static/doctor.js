@@ -4,6 +4,7 @@ var symptomList = document.getElementById("symptom-list")
 var completedExamList = document.getElementById("completed-exam-list")
 var possibleExamList = document.getElementById("possible-exam-list")
 var diagnosisList = document.getElementById("diagnosis-list")
+var diagnosesFound = document.getElementById("diagnoses-found")
 
 
 
@@ -49,6 +50,7 @@ function updatePatient(data) {
     completedExamList.textContent = '';
     possibleExamList.textContent = '';
     diagnosisList.textContent = '';
+    diagnosesFound.textContent = 'No';
 
     console.log('Update Symptoms');
     Object.keys(patient['symptoms']).forEach(function(key){
@@ -80,17 +82,26 @@ function updatePatient(data) {
         possibleExamList.appendChild(newItem);
     });
 
+    console.log('Update Diagnosis')
+    if (data['diagnoses'] == null) {
+        const newItem = document.createElement('li');
+        newItem.className = 'list-group-item list-group-item-danger';
+        newItem.textContent = "You have not completed any examination yet";
+        diagnosisList.appendChild(newItem);
+    }
+    else {
+        Object.keys(data['diagnoses']).forEach(function(key){
 
-    Object.keys(data['diagnoses']).forEach(function(key){
-        // console.log(key, data['diagnoses'][key]);
-
-        if (data['diagnoses'][key]) {
-            const newItem = document.createElement('li');
-            newItem.className = 'list-group-item';
-            newItem.textContent = data['diagnoses'][key];
-            diagnosisList.appendChild(newItem);
-        }
-    });
+            if (data['diagnoses'][key]) {
+                const newItem = document.createElement('li');
+                newItem.className = 'list-group-item';
+                newItem.textContent = data['diagnoses'][key];
+                diagnosisList.appendChild(newItem);
+            }
+    
+        });
+        diagnosesFound.textContent = Object.keys(data['diagnoses']).length;
+    }
 
     console.log("Update Patient Data Completed")
 }

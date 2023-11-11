@@ -39,7 +39,8 @@ def get_patient_by_id(patient_id):
     patient = collections.find_one({'patient_id': patient_id})
 
     examined = patient['examined']
-    patient_diagnoses = update_diagnoses(examined)
+    symptoms = patient['symptoms']
+    patient_diagnoses = update_diagnoses(examined, symptoms)
 
     if patient:
         possible_list = EXAM_LIST.difference(set(patient['examined']))
