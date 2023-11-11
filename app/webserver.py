@@ -110,21 +110,34 @@ def neutral():
 
 
 
-@app.route("/examine")
+# @app.route("/examine")
+# def examine():
+#     params = request.args
+
+#     # CHECK IF THE EXAMINATION AND PATIENT ID IS VALID
+#     patient_id = params.get('patient_id')
+#     examination = params.get('examination')
+
+#     print(patient_id, examination)
+
+#     if not patient_id and not examination:
+
+#         return ('bad request', 400)
+
+#     lab_examine_backend(patient_id, examination)
+
+#     return ('success', 200)
+
+@app.route("/examine", methods=['POST'])
 def examine():
-    params = request.args
+    data = request.get_json()
+    patient_id = data['patient_id']
+    examination = data['examination']
 
-    # CHECK IF THE EXAMINATION AND PATIENT ID IS VALID
-    patient_id = params.get('patient_id')
-    examination = params.get('examination')
-
-    print(patient_id, examination)
-
-    if not patient_id and not examination:
-
+    if patient_id == None or not examination:
         return ('bad request', 400)
 
-    lab_examine_backend(patient_id, examination)
+    lab_examine_backend(patient_id, examination, collections)
 
     return ('success', 200)
 

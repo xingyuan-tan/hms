@@ -4,13 +4,18 @@ var selectedPatient = document.getElementById("selected-patient");
 var patientDisease = document.getElementById("patient-disease");
 var discoveredList = document.getElementById("discovered-list");
 var undiscoveredList = document.getElementById("undiscovered-list");
-var examineSelectList = document.getElementById("selected-examine");
+var selectedExamine = document.getElementById("selected-examine");
+var btnSendExamine = document.getElementById("send-examine");
+var completedExamList = document.getElementById("completed-exam-list");
 
 const URL = window.location.host;
 
 btnFetchPatient.onclick = function () {
+    fetchPatient();
+};
+
+function fetchPatient() {
     console.log('Fetch Patient');
-    console.log(URL)
     fetch('http://' + URL + '/patient-data/' + selectedPatient.value)
         .then(response => {
             if (!response.ok) {
@@ -35,8 +40,9 @@ btnFetchPatient.onclick = function () {
         })
         .catch((error) => {
             console.error('Fetch error:', error);
-        });
-};
+        }
+        );
+}
 
 function updatePatient(data) {
     patient = data.data.patient;
@@ -47,7 +53,8 @@ function updatePatient(data) {
     patientDisease.textContent = '';
     discoveredList.textContent = '';
     undiscoveredList.textContent = '';
-    examineSelectList.textContent = '';
+    selectedExamine.textContent = '';
+    completedExamList.textContent = '';
 
     console.log('Update Patient Disease');
     if (patient['disease']) {
@@ -77,7 +84,7 @@ function updatePatient(data) {
     Object.keys(patient['possible_exam']).forEach(function(key){
         const newItem = document.createElement('option');
         newItem.textContent = patient['possible_exam'][key];
-        examineSelectList.appendChild(newItem);
+        selectedExamine.appendChild(newItem);
     });
     
     console.log("Update Completed Examination List")
@@ -88,3 +95,32 @@ function updatePatient(data) {
         completedExamList.appendChild(newItem);
     });
 }
+
+btnSendExamine.onclick = function() {
+    console.log("Sending examination");
+    console.log(selectedPatient.value)
+    console.log(selectedExamine.value)
+    // fetch('http://' + URL + '/examine?patient_id='+selectedPatient.value+'&examination='+selectedExamine.value);
+
+    fetch('http://' + URL + '/examine', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            patient_id: selectedPatient.value,
+            examination: selectedExamine.value,
+        }),
+    })
+
+    .then((data) => {
+        console.log('Success:', data);
+        fetchPatient();
+    })
+    .catch((error) => {
+        console.error('Error:', error);
+    });
+
+    
+    //update info screen
+};
