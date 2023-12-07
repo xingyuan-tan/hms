@@ -1,0 +1,1254 @@
+[{
+  "patient_id": 0,
+  "symptoms": {
+    "SYM_NAUSEA": false,
+    "SYM_ABDOMINAL_PAIN": false,
+    "SYM_WEIGHT_LOSS": false,
+    "SYM_VITAMIN_DEFICIENCY": false,
+    "SYM_PORK_TAPEWORM_PRESENT": false
+  }
+},
+{
+  "patient_id": 1,
+  "symptoms": {
+    "SYM_ABDOMINAL_PAIN": false,
+    "SYM_DIZZINESS": false,
+    "SYM_HEADACHE": false,
+    "SYM_BEEF_TAPEWORM_PRESENT": false
+  }
+},
+{
+  "patient_id": 2,
+  "symptoms": {
+    "SYM_VOMITING": false,
+    "SYM_LOSS_OF_APPETITE": false,
+    "SYM_HEADACHE": false,
+    "SYM_MUSCLES_AND_JOINTS_PAIN": false,
+    "SYM_FEVER": false,
+    "SYM_PAPULAS_AND_VESICLES": false
+  }
+},
+{
+  "patient_id": 3,
+  "symptoms": {
+    "SYM_FATIGUE": false,
+    "SYM_CHEST_PAIN": false,
+    "SYM_DIZZINESS": false,
+    "SYM_LOW_HEMATOCRIT": false
+  }
+},
+{
+  "patient_id": 4,
+  "symptoms": {
+    "SYM_NAUSEA": false,
+    "SYM_VOMITING": false,
+    "SYM_ABDOMINAL_CRAMPS": false,
+    "SYM_LACTOSE_INTOLERANCE_DETECTED": false
+  }
+},
+{
+  "patient_id": 5,
+  "symptoms": {
+    "SYM_FEVER": false,
+    "SYM_SPUTUM_COUGH": false,
+    "SYM_NAUSEA": false,
+    "SYM_VOMITING": false,
+    "SYM_DYSPHAGIA": false,
+    "SYM_MUSCLES_AND_JOINTS_PAIN": false,
+    "SYM_RASH": false,
+    "SYM_WHITE_PATCHES_ON_TONSILS": false
+  }
+},
+{
+  "patient_id": 6,
+  "symptoms": {
+    "SYM_DRY_COUGH": false,
+    "SYM_FEVER": false,
+    "SYM_CHEST_PAIN": false,
+    "SYM_HEADACHE": false,
+    "SYM_WHEEZING": false,
+    "SYM_BRONCHIAL_INFECTION": false
+  }
+},
+{
+  "patient_id": 7,
+  "symptoms": {
+    "SYM_ELBOW_STIFFNESS": false,
+    "SYM_TENDERNESS": false,
+    "SYM_FEVER": false,
+    "SYM_ELBOW_TENDONS_DAMAGED": false
+  }
+},
+{
+  "patient_id": 8,
+  "symptoms": {
+    "SYM_MUSCLE_WEAKNESS": false,
+    "SYM_NUMBNESS": false,
+    "SYM_SCOLIOTIC_FINDINGS": false
+  }
+},
+{
+  "patient_id": 9,
+  "symptoms": {
+    "SYM_NIGHT_SWEATS": false,
+    "SYM_SLEEPING_DIFFICULTIES": false,
+    "SYM_FATIGUE": false,
+    "SYM_WEAKNESS": false,
+    "SYM_CHR._FATIGUE_SYNDROME": false
+  }
+},
+{
+  "patient_id": 10,
+  "symptoms": {
+    "SYM_SLEEPING_DIFFICULTIES": false,
+    "SYM_IRRITABILITY": false,
+    "SYM_DEPRESSION": false,
+    "SYM_LONG_REACT_TIME": false,
+    "SYM_INSOMNIA_REVEALED": false
+  }
+},
+{
+  "patient_id": 11,
+  "symptoms": {
+    "SYM_INJURY_TO_THE_ARM": false,
+    "SYM_PAIN": false,
+    "SYM_LIMITED_ARM_MOTION": false,
+    "SYM_SWELLING": false,
+    "SYM_REDNESS": false,
+    "SYM_BRUISE": false,
+    "SYM_FOREARM_CONTUSION": false
+  }
+},
+{
+  "patient_id": 12,
+  "symptoms": {
+    "SYM_INJURY_TO_THE_HAND": false,
+    "SYM_HAND_PAIN": false,
+    "SYM_SWELLING": false,
+    "SYM_BRUISE": false,
+    "SYM_TENDERNESS": false,
+    "SYM_WRIST_CONTUSION": false
+  }
+},
+{
+  "patient_id": 13,
+  "symptoms": {
+    "SYM_INJURY_TO_THE_FOOT": false,
+    "SYM_WARMTH": false,
+    "SYM_SWELLING": false,
+    "SYM_PAIN": false,
+    "SYM_BRUISE": false,
+    "SYM_TENDERNESS": false,
+    "SYM_LIMITED_LEG_MOTION": false,
+    "SYM_INSTEP_CONTUSION": false
+  }
+},
+{
+  "patient_id": 14,
+  "symptoms": {
+    "SYM_ANKLE_INJURY": false,
+    "SYM_WARMTH": false,
+    "SYM_SWELLING": false,
+    "SYM_PAIN": false,
+    "SYM_ANKLE_BRUISE": false,
+    "SYM_INABILITY_TO_MOVE_THE_JOINT": false,
+    "SYM_TENDERNESS": false,
+    "SYM_ANKLE_CONTUSION": false
+  }
+},
+{
+  "patient_id": 15,
+  "symptoms": {
+    "SYM_INJURY_TO_THE_LEG": false,
+    "SYM_LIMITED_LEG_MOTION": false,
+    "SYM_CALF_CONTUSION": false
+  }
+},
+{
+  "patient_id": 16,
+  "symptoms": {
+    "SYM_INJURY_TO_THE_CHEST": false,
+    "SYM_PAIN": false,
+    "SYM_BREATHING_DIFFICULTIES": false,
+    "SYM_REDNESS": false,
+    "SYM_BRUISE": false,
+    "SYM_THORAX_CONTUSION": false
+  }
+},
+{
+  "patient_id": 17,
+  "symptoms": {
+    "SYM_CHILLS": false,
+    "SYM_MUSCLES_AND_JOINTS_PAIN": false,
+    "SYM_MALAISE": false,
+    "SYM_HEADACHE": false,
+    "SYM_SORE_THROAT": false,
+    "SYM_NASAL_CONGESTION": false,
+    "SYM_SNEEZING": false,
+    "SYM_INFLUENZA_B_DETECTED": false
+  }
+},
+{
+  "patient_id": 18,
+  "symptoms": {
+    "SYM_CHILLS": false,
+    "SYM_FEVER": false,
+    "SYM_MUSCLES_AND_JOINTS_PAIN": false,
+    "SYM_MALAISE": false,
+    "SYM_FATIGUE": false,
+    "SYM_HEADACHE": false,
+    "SYM_SORE_THROAT": false,
+    "SYM_NASAL_CONGESTION": false,
+    "SYM_SNEEZING": false,
+    "SYM_INFLUENZA_A_DETECTED": false
+  }
+},
+{
+  "patient_id": 19,
+  "symptoms": {
+    "SYM_NAUSEA": false,
+    "SYM_FEVER": false,
+    "SYM_CHILLS": false,
+    "SYM_HEADACHE": false,
+    "SYM_HEMATOCHEZIA": false,
+    "SYM_SALMONELLOSIS_CONFIRMED": false
+  }
+},
+{
+  "patient_id": 20,
+  "symptoms": {
+    "SYM_ABDOMINAL_CRAMPS": false,
+    "SYM_FATIGUE": false,
+    "SYM_FEVER": false,
+    "SYM_VOMITING": false,
+    "SYM_E._HISTOLYTICA_DISCOVERED": false
+  }
+},
+{
+  "patient_id": 21,
+  "symptoms": {
+    "SYM_DIARRHEA": false,
+    "SYM_MALAISE": false,
+    "SYM_ABDOMINAL_CRAMPS": false,
+    "SYM_FLATULENCE": false,
+    "SYM_NAUSEA": false,
+    "SYM_TENDERNESS": false,
+    "SYM_GIARDIA_LAMBLIA_DISCOVERED": false
+  }
+},
+{
+  "patient_id": 22,
+  "symptoms": {
+    "SYM_DRY_COUGH": false,
+    "SYM_HEMOPTYSIS": false,
+    "SYM_FATIGUE": false,
+    "SYM_FEVER": false,
+    "SYM_CHILLS": false,
+    "SYM_CRP_HIGH": false,
+    "SYM_NIGHT_SWEATS": false,
+    "SYM_BREATHING_DIFFICULTIES": false,
+    "SYM_MAC_DETECTED": false
+  }
+},
+{
+  "patient_id": 23,
+  "symptoms": {
+    "SYM_FEVER": false,
+    "SYM_SORE_THROAT": false,
+    "SYM_FATIGUE": false,
+    "SYM_MUSCLES_AND_JOINTS_PAIN": false,
+    "SYM_PURPURA": false,
+    "SYM_NIGHT_SWEATS": false,
+    "SYM_EBV_DETECTED": false
+  }
+},
+{
+  "patient_id": 24,
+  "symptoms": {
+    "SYM_FATIGUE": false,
+    "SYM_CHILLS": false,
+    "SYM_HEADACHE": false,
+    "SYM_CHEST_PAIN": false,
+    "SYM_MUSCLES_AND_JOINTS_PAIN": false,
+    "SYM_PAINFUL_CERVICAL_LYMPH_NODES": false,
+    "SYM_BREATHING_DIFFICULTIES": false,
+    "SYM_HISTOPLASMA_DETECTED": false
+  }
+},
+{
+  "patient_id": 25,
+  "symptoms": {
+    "SYM_HEMOPTYSIS": false,
+    "SYM_FATIGUE": false,
+    "SYM_CHILLS": false,
+    "SYM_CHEST_PAIN": false,
+    "SYM_ASPERGILLOMA_DISCOVERED": false
+  }
+},
+{
+  "patient_id": 26,
+  "symptoms": {
+    "SYM_FATIGUE": false,
+    "SYM_BREATHING_DIFFICULTIES": false,
+    "SYM_CONFUSION": false,
+    "SYM_WEAKNESS": false,
+    "SYM_JAUNDICE": false,
+    "SYM_DARK_URINE": false,
+    "SYM_HAPTOGLOBIN_LOW": false
+  }
+},
+{
+  "patient_id": 27,
+  "symptoms": {
+    "SYM_FATIGUE": false,
+    "SYM_PROLONGED_BLEEDING": false,
+    "SYM_THROMBOCYTOPENIA_DETECTED": false
+  }
+},
+{
+  "patient_id": 28,
+  "symptoms": {
+    "SYM_CLOTTING_FACTOR_LOW": false
+  }
+},
+{
+  "patient_id": 29,
+  "symptoms": {
+    "SYM_FATIGUE": false,
+    "SYM_WEAKNESS": false,
+    "SYM_PALE_SKIN": false,
+    "SYM_JAUNDICE": false,
+    "SYM_TENDERNESS": false,
+    "SYM_ABDOMINAL_SWELLING": false,
+    "SYM_THALASSEMIA_DISCOVERED": false
+  }
+},
+{
+  "patient_id": 30,
+  "symptoms": {
+    "SYM_FEVER": false,
+    "SYM_SWOLLEN_LYMPH_NODES": false,
+    "SYM_CHEST_PAIN": false,
+    "SYM_GRANULOMAS_LUNGS": false
+  }
+},
+{
+  "patient_id": 31,
+  "symptoms": {
+    "SYM_FEVER": false,
+    "SYM_SWOLLEN_LYMPH_NODES": false,
+    "SYM_CHEST_PAIN": false,
+    "SYM_BREATHING_DIFFICULTIES": false,
+    "SYM_EDEMA": false,
+    "SYM_GRANULOMAS_HEART": false
+  }
+},
+{
+  "patient_id": 32,
+  "symptoms": {
+    "SYM_WEIGHT_LOSS": false,
+    "SYM_FATIGUE": false,
+    "SYM_IRRITABILITY": false,
+    "SYM_HIGH_SUGAR_LEVEL": false
+  }
+},
+{
+  "patient_id": 33,
+  "symptoms": {
+    "SYM_SPUTUM_COUGH": false,
+    "SYM_WHEEZING": false,
+    "SYM_BREATHING_DIFFICULTIES": false,
+    "SYM_TENDERNESS": false,
+    "SYM_WEIGHT_LOSS": false,
+    "SYM_HIGH_CHLORIDE_LEVEL": false,
+    "SYM_OSTEOPOROSIS": false
+  }
+},
+{
+  "patient_id": 34,
+  "symptoms": {
+    "SYM_OTALGIA": false,
+    "SYM_FEVER": false,
+    "SYM_SWOLLEN_EAR_CANAL": false,
+    "SYM_EAR_CANAL_INFECTED": false
+  }
+},
+{
+  "patient_id": 35,
+  "symptoms": {
+    "SYM_IRRITABILITY": false,
+    "SYM_HEADACHE": false,
+    "SYM_FEVER": false,
+    "SYM_DIMINISHED_HEARING": false,
+    "SYM_EAR_FLUID_DRAINAGE": false,
+    "SYM_TYMPANIC_MEMBRANE_INFLAMMED": false
+  }
+},
+{
+  "patient_id": 36,
+  "symptoms": {
+    "SYM_EAR_FLUID_DRAINAGE": false,
+    "SYM_HEADACHE": false,
+    "SYM_SWOLLEN_EAR_LOBE": false,
+    "SYM_MASTOID_CELLS_INFECTED": false,
+    "SYM_VOMITING": false
+  }
+},
+{
+  "patient_id": 37,
+  "symptoms": {
+    "SYM_CHEST_PAIN": false,
+    "SYM_CONFUSION": false,
+    "SYM_SPUTUM_COUGH": false,
+    "SYM_FATIGUE": false,
+    "SYM_CHILLS": false,
+    "SYM_BREATHING_DIFFICULTIES": false,
+    "SYM_NAUSEA": false,
+    "SYM_PNEUMONIC_LUNGS": false,
+    "SYM_EXHAUSTION": false
+  }
+},
+{
+  "patient_id": 38,
+  "symptoms": {
+    "SYM_FEVER": false,
+    "SYM_SPUTUM_COUGH": false,
+    "SYM_BREATHING_DIFFICULTIES": false,
+    "SYM_CRP_HIGH": false,
+    "SYM_NIGHT_SWEATS": false,
+    "SYM_SWEATING": false,
+    "SYM_HEADACHE": false,
+    "SYM_MUSCLES_AND_JOINTS_PAIN": false,
+    "SYM_CYANOSIS": false,
+    "SYM_LEUKOCYTOSIS": false,
+    "SYM_CONFUSION": false,
+    "SYM_LUNG_TISSUE_FINDINGS": false
+  }
+},
+{
+  "patient_id": 39,
+  "symptoms": {
+    "SYM_BAD_BREATH": false,
+    "SYM_FATIGUE": false,
+    "SYM_SPUTUM_COUGH": false,
+    "SYM_PALE_SKIN": false,
+    "SYM_FEVER": false,
+    "SYM_A1AT_DEFICIENCY": false,
+    "SYM_AIRWAYS_INFECTED": false
+  }
+},
+{
+  "patient_id": 40,
+  "symptoms": {
+    "SYM_FATIGUE": false,
+    "SYM_BREATHING_DIFFICULTIES": false,
+    "SYM_FEVER": false,
+    "SYM_CHEST_PAIN": false,
+    "SYM_SPUTUM_COUGH": false,
+    "SYM_CONSTANT_BRONCHIAL_INFECTION": false
+  }
+},
+{
+  "patient_id": 41,
+  "symptoms": {
+    "SYM_A1AT_DEFICIENCY": false,
+    "SYM_WEAKNESS": false,
+    "SYM_ANXIETY": false,
+    "SYM_BREATHING_DIFFICULTIES": false,
+    "SYM_EMPHYSEMA_DISCOVERED": false
+  }
+},
+{
+  "patient_id": 42,
+  "symptoms": {
+    "SYM_BREATHING_DIFFICULTIES": false,
+    "SYM_WHEEZING": false,
+    "SYM_CHEST_PAIN": false,
+    "SYM_WEAKNESS": false,
+    "SYM_CYANOSIS": false,
+    "SYM_DYSPNEA": false,
+    "SYM_OBSTRUCTED_AIRWAYS": false
+  }
+},
+{
+  "patient_id": 43,
+  "symptoms": {
+    "SYM_CHEST_PAIN": false,
+    "SYM_WHEEZING": false,
+    "SYM_BRONCHIAL_HYPERREACTIVITY": false
+  }
+},
+{
+  "patient_id": 44,
+  "symptoms": {
+    "SYM_CHEST_PAIN": false,
+    "SYM_PALE_SKIN": false,
+    "SYM_CYANOSIS": false,
+    "SYM_FATIGUE": false,
+    "SYM_WHEEZING": false,
+    "SYM_PULMONARY_DAMAGE": false
+  }
+},
+{
+  "patient_id": 45,
+  "symptoms": {
+    "SYM_FEVER": false,
+    "SYM_CHILLS": false,
+    "SYM_SWOLLEN_LYMPH_NODES": false,
+    "SYM_STREP_SKIN_INFECTION": false
+  }
+},
+{
+  "patient_id": 46,
+  "symptoms": {
+    "SYM_FATIGUE": false,
+    "SYM_CYANOSIS": false,
+    "SYM_CRP_HIGH": false,
+    "SYM_CONFUSION": false,
+    "SYM_DIZZINESS": false,
+    "SYM_HEMATURIA": false,
+    "SYM_LUPUS_FINDINGS": false
+  }
+},
+{
+  "patient_id": 47,
+  "symptoms": {
+    "SYM_INJURY_TO_THE_CHEST": false,
+    "SYM_CHEST_PAIN": false,
+    "SYM_HEMOPTYSIS": false,
+    "SYM_HYPOTENSION": false,
+    "SYM_PLEURAL_EFFUSION": false,
+    "SYM_BLUNT_PULMONARY_CONTUSION": false
+  }
+},
+{
+  "patient_id": 48,
+  "symptoms": {
+    "SYM_NAUSEA": false,
+    "SYM_HALLUCINATION": false,
+    "SYM_MUSCLE_WEAKNESS": false,
+    "SYM_CARBOXYHEMOGLOBIN_HIGH_LEVEL": false,
+    "SYM_RESPIRATORY_FAILURE": false
+  }
+},
+{
+  "patient_id": 49,
+  "symptoms": {
+    "SYM_SORE_THROAT": false,
+    "SYM_SNEEZING": false,
+    "SYM_RASH": false,
+    "SYM_NAUSEA": false,
+    "SYM_VOMITING": false,
+    "SYM_HEADACHE": false,
+    "SYM_CREATINE_KINASE_HIGH": false,
+    "SYM_CHLORINE_DETECTED": false
+  }
+},
+{
+  "patient_id": 50,
+  "symptoms": {
+    "SYM_HEADACHE": false,
+    "SYM_CONFUSION": false,
+    "SYM_LOSS_OF_VISION": false,
+    "SYM_ACIDOSIS": false,
+    "SYM_FORMATE_TOXIC_LEVEL": false
+  }
+},
+{
+  "patient_id": 51,
+  "symptoms": {
+    "SYM_ABDOMINAL_PAIN": false,
+    "SYM_HEADACHE": false,
+    "SYM_SLEEPING_DIFFICULTIES": false,
+    "SYM_HALLUCINATION": false,
+    "SYM_MALAISE": false,
+    "SYM_FATIGUE": false,
+    "SYM_MUSCLE_PAIN": false,
+    "SYM_LEAD_LEVELS_HIGH": false
+  }
+},
+{
+  "patient_id": 52,
+  "symptoms": {
+    "SYM_CHEST_PAIN": false,
+    "SYM_BREATHING_DIFFICULTIES": false,
+    "SYM_IRRITABLE_COUGH": false,
+    "SYM_WEIGHT_LOSS": false,
+    "SYM_CHILLS": false,
+    "SYM_SORE_THROAT": false,
+    "SYM_MUSCLE_PAIN": false,
+    "SYM_LOSS_OF_APPETITE": false,
+    "SYM_BACTERIAL_INFECTION_DETECTED": false
+  }
+},
+{
+  "patient_id": 53,
+  "symptoms": {
+    "SYM_BREATHING_DIFFICULTIES": false,
+    "SYM_CHEST_PAIN": false,
+    "SYM_WHEEZING": false,
+    "SYM_ASBESTOSIS_DETECTED": false
+  }
+},
+{
+  "patient_id": 54,
+  "symptoms": {
+    "SYM_HEADACHE": false,
+    "SYM_FEVER": false,
+    "SYM_MALAISE": false,
+    "SYM_RASH_ON_NECK": false,
+    "SYM_RASH_ON_ARM": false,
+    "SYM_RASH_ON_TORSO": false,
+    "SYM_TENDERNESS": false,
+    "SYM_SWEATING": false,
+    "SYM_REDNESS": false,
+    "SYM_HEAT_RASH": false
+  }
+},
+{
+  "patient_id": 55,
+  "symptoms": {
+    "SYM_VOMITING": false,
+    "SYM_DIZZINESS": false,
+    "SYM_HYPOTENSION": false,
+    "SYM_CIGUATOXIN_DETECTED": false
+  }
+},
+{
+  "patient_id": 56,
+  "symptoms": {
+    "SYM_IRRITABLE_COUGH": false,
+    "SYM_FEVER": false,
+    "SYM_PLEURAL_EFFUSION": false,
+    "SYM_PLEURAL_FLUID_INFECTED": false
+  }
+},
+{
+  "patient_id": 57,
+  "symptoms": {
+    "SYM_CHEST_PAIN": false,
+    "SYM_FATIGUE": false,
+    "SYM_PLEURAL_EFFUSION": false,
+    "SYM_CHYLOTHORAX_DETECTED": false
+  }
+},
+{
+  "patient_id": 58,
+  "symptoms": {
+    "SYM_CHEST_PAIN": false,
+    "SYM_LUNG_FINDINGS": false,
+    "SYM_BREATHING_DIFFICULTIES": false,
+    "SYM_IRRITABLE_COUGH": false,
+    "SYM_HYPERPYREXIA": false,
+    "SYM_PLEURAL_TRANSUDATE": false
+  }
+},
+{
+  "patient_id": 59,
+  "symptoms": {
+    "SYM_HEARING_DIFFICULTIES": false,
+    "SYM_RINGING_IN_THE_EARS": false,
+    "SYM_SWOLLEN_EAR_CANAL": false,
+    "SYM_OTALGIA": false,
+    "SYM_CHOLESTEATOMA_DISCOVERED": false
+  }
+},
+{
+  "patient_id": 60,
+  "symptoms": {
+    "SYM_IRRITABLE_COUGH": false,
+    "SYM_SORE_THROAT": false,
+    "SYM_FEVER": false,
+    "SYM_HOARSENESS": false,
+    "SYM_BREATHING_DIFFICULTIES": false,
+    "SYM_CROUP_PRESENT": false
+  }
+},
+{
+  "patient_id": 61,
+  "symptoms": {
+    "SYM_NASAL_CONGESTION": false,
+    "SYM_SNEEZING": false,
+    "SYM_BREATHING_DIFFICULTIES": false,
+    "SYM_NASAL_POLYPS_DETECTED": false
+  }
+},
+{
+  "patient_id": 62,
+  "symptoms": {
+    "SYM_HEARING_DIFFICULTIES": false,
+    "SYM_RINGING_IN_THE_EARS": false,
+    "SYM_NAUSEA": false,
+    "SYM_MENIERES_DISEASE_PRESENT": false
+  }
+},
+{
+  "patient_id": 63,
+  "symptoms": {
+    "SYM_HEADACHE": false,
+    "SYM_CHEST_PAIN": false,
+    "SYM_NUMBNESS": false,
+    "SYM_BLURRED_VISION": false,
+    "SYM_THROMBOCYTHEMIA": false
+  }
+},
+{
+  "patient_id": 64,
+  "symptoms": {
+    "SYM_REDNESS": false,
+    "SYM_SWELLING": false,
+    "SYM_BREATHING_DIFFICULTIES": false,
+    "SYM_RASH": false,
+    "SYM_FEVER": false,
+    "SYM_POISON_IVY_RASH": false
+  }
+},
+{
+  "patient_id": 65,
+  "symptoms": {
+    "SYM_BREATHING_DIFFICULTIES": false,
+    "SYM_INJURY_TO_THE_CHEST": false,
+    "SYM_HEMOTHORAX_DISCOVERED": false
+  }
+},
+{
+  "patient_id": 66,
+  "symptoms": {
+    "SYM_CYANOSIS": false,
+    "SYM_ABDOMINAL_PAIN": false,
+    "SYM_CHEST_PAIN": false,
+    "SYM_FATIGUE": false,
+    "SYM_DYSPNEA": false,
+    "SYM_PUNCTURED_LUNGS": false
+  }
+},
+{
+  "patient_id": 67,
+  "symptoms": {
+    "SYM_DIARRHEA": false,
+    "SYM_DEHYDRATION": false,
+    "SYM_HYPOTENSION": false,
+    "SYM_VIBRIO_CHOLERAE_DETECTED": false
+  }
+},
+{
+  "patient_id": 68,
+  "symptoms": {
+    "SYM_HEADACHE": false,
+    "SYM_WEAKNESS": false,
+    "SYM_FATIGUE": false,
+    "SYM_DRY_COUGH": false,
+    "SYM_LOSS_OF_APPETITE": false,
+    "SYM_ABDOMINAL_PAIN": false,
+    "SYM_DIARRHEA": false,
+    "SYM_TENDERNESS": false,
+    "SYM_MUSCLES_AND_JOINTS_PAIN": false,
+    "SYM_SALMONELLA_TYPHI_DETECTED": false
+  }
+},
+{
+  "patient_id": 69,
+  "symptoms": {
+    "SYM_HEMOPTYSIS": false,
+    "SYM_WEIGHT_LOSS": false,
+    "SYM_FATIGUE": false,
+    "SYM_FEVER": false,
+    "SYM_LUNG_FINDINGS": false,
+    "SYM_M._TUBERCULOSIS_DETECTED": false,
+    "SYM_EXHAUSTION": false
+  }
+},
+{
+  "patient_id": 70,
+  "symptoms": {
+    "SYM_PAINFUL_CERVICAL_LYMPH_NODES": false,
+    "SYM_CHILLS": false,
+    "SYM_HEADACHE": false,
+    "SYM_DRY_COUGH": false,
+    "SYM_DIARRHEA": false,
+    "SYM_F._TULARENSIS_DETECTED": false,
+    "SYM_BREATHING_DIFFICULTIES": false
+  }
+},
+{
+  "patient_id": 71,
+  "symptoms": {
+    "SYM_SORE_THROAT": false,
+    "SYM_MUSCLES_AND_JOINTS_PAIN": false,
+    "SYM_CHEST_PAIN": false,
+    "SYM_SWALLOW_PAIN": false,
+    "SYM_HEMOPTYSIS": false,
+    "SYM_LUNG_FINDINGS": false,
+    "SYM_BREATHING_DIFFICULTIES": false,
+    "SYM_HYPERPYREXIA": false,
+    "SYM_B._ANTHRACIS_DETECTED": false
+  }
+},
+{
+  "patient_id": 72,
+  "symptoms": {
+    "SYM_FEVER": false,
+    "SYM_HEADACHE": false,
+    "SYM_MUSCLES_AND_JOINTS_PAIN": false,
+    "SYM_STREPTOBACILLUS_DETECTED": false
+  }
+},
+{
+  "patient_id": 73,
+  "symptoms": {
+    "SYM_SWOLLEN_LYMPH_NODES": false,
+    "SYM_MALAISE": false,
+    "SYM_MUSCLES_AND_JOINTS_PAIN": false,
+    "SYM_B._HENSELAE_DETECTED": false
+  }
+},
+{
+  "patient_id": 74,
+  "symptoms": {
+    "SYM_NASAL_CONGESTION": false,
+    "SYM_RED_EYE": false,
+    "SYM_SPUTUM_COUGH": false,
+    "SYM_VOMITING": false,
+    "SYM_B._PERTUSSIS_DETECTED": false
+  }
+},
+{
+  "patient_id": 75,
+  "symptoms": {
+    "SYM_HEADACHE": false,
+    "SYM_CHILLS": false,
+    "SYM_CHEST_PAIN": false,
+    "SYM_NAUSEA": false,
+    "SYM_VOMITING": false,
+    "SYM_DIARRHEA": false,
+    "SYM_CONFUSION": false,
+    "SYM_HEMOPTYSIS": false,
+    "SYM_LEGIONELLA_DETECTED": false
+  }
+},
+{
+  "patient_id": 76,
+  "symptoms": {
+    "SYM_HEADACHE": false,
+    "SYM_FEVER": false,
+    "SYM_RASH": false,
+    "SYM_VOMITING": false,
+    "SYM_R._TYPHI_DETECTED": false,
+    "SYM_DEHYDRATION": false
+  }
+},
+{
+  "patient_id": 77,
+  "symptoms": {
+    "SYM_FEVER": false,
+    "SYM_FATIGUE": false,
+    "SYM_HEADACHE": false,
+    "SYM_NAUSEA": false,
+    "SYM_MUSCLES_AND_JOINTS_PAIN": false,
+    "SYM_TRYPANOSOMA_DETECTED": false
+  }
+},
+{
+  "patient_id": 78,
+  "symptoms": {
+    "SYM_HEADACHE": false,
+    "SYM_FEVER": false,
+    "SYM_CONFUSION": false,
+    "SYM_TOXOPLASMOSIS_DETECTED": false
+  }
+},
+{
+  "patient_id": 79,
+  "symptoms": {
+    "SYM_FEVER": false,
+    "SYM_CHILLS": false,
+    "SYM_NAUSEA": false,
+    "SYM_DRY_COUGH": false,
+    "SYM_BABESIOSIS_DETECTED": false
+  }
+},
+{
+  "patient_id": 80,
+  "symptoms": {
+    "SYM_HEADACHE": false,
+    "SYM_FEVER": false,
+    "SYM_FATIGUE": false,
+    "SYM_VOMITING": false,
+    "SYM_BREATHING_DIFFICULTIES": false,
+    "SYM_LYME_DISEASE_DETECTED": false
+  }
+},
+{
+  "patient_id": 81,
+  "symptoms": {
+    "SYM_FEVER": false,
+    "SYM_HEADACHE": false,
+    "SYM_SWOLLEN_LYMPH_NODES": false,
+    "SYM_SWALLOW_PAIN": false,
+    "SYM_PAROTID_INFECTED": false,
+    "SYM_DIMINISHED_HEARING": false
+  }
+},
+{
+  "patient_id": 82,
+  "symptoms": {
+    "SYM_INJURY_TO_THE_CHEST": false,
+    "SYM_SEVERE_HEMORRHAGE": false,
+    "SYM_HYPOVOLEMIC_SHOCK": false,
+    "SYM_OPEN_WOUND": false,
+    "SYM_PENETRATING_PULMONARY_LACERATION": false
+  }
+},
+{
+  "patient_id": 83,
+  "symptoms": {
+    "SYM_FINGER_NUMBNESS": false,
+    "SYM_HAND_PAIN": false,
+    "SYM_HAND_WEAKNESS": false,
+    "SYM_MEDIAN_NERVE_COMPRESSION": false
+  }
+},
+{
+  "patient_id": 84,
+  "symptoms": {
+    "SYM_FEVER": false,
+    "SYM_PAIN": false,
+    "SYM_CRP_HIGH": false,
+    "SYM_STIFFNESS_OF_THE_JOINTS": false,
+    "SYM_STIFFNESS_IN_THE_HIP": false,
+    "SYM_WALKING_DIFFICULTIES": false,
+    "SYM_ANEMIA": false,
+    "SYM_RHEUMATOID_FACTOR": false
+  }
+},
+{
+  "patient_id": 85,
+  "symptoms": {
+    "SYM_PAIN": false,
+    "SYM_SLEEPING_DIFFICULTIES": false,
+    "SYM_WALKING_DIFFICULTIES": false,
+    "SYM_LIMITED_LEG_MOTION": false,
+    "SYM_BACK_PAIN": false,
+    "SYM_HIP_JOINTS_DAMAGED": false
+  }
+},
+{
+  "patient_id": 86,
+  "symptoms": {
+    "SYM_SWELLING_KNEE": false,
+    "SYM_WALKING_DIFFICULTIES": false,
+    "SYM_WADDLING_GAIT": false,
+    "SYM_LIMITED_LEG_MOTION": false,
+    "SYM_STIFFNESS_IN_THE_KNEE": false,
+    "SYM_KNEE_JOINT_DAMAGED": false
+  }
+},
+{
+  "patient_id": 87,
+  "symptoms": {
+    "SYM_WEAKNESS": false,
+    "SYM_MUSCLE_PAIN": false,
+    "SYM_WEIGHT_LOSS": false,
+    "SYM_TENDERNESS": false,
+    "SYM_FEVER": false,
+    "SYM_RASH": false,
+    "SYM_CREATINE_KINASE_HIGH": false,
+    "SYM_MUSCLES_INFLAMMED": false
+  }
+},
+{
+  "patient_id": 88,
+  "symptoms": {
+    "SYM_FEVER": false,
+    "SYM_CHILLS": false,
+    "SYM_PAIN": false,
+    "SYM_SWELLING_LIMBS": false,
+    "SYM_REDNESS": false,
+    "SYM_BONE_INFECTED": false
+  }
+},
+{
+  "patient_id": 89,
+  "symptoms": {
+    "SYM_HAND_PAIN": false,
+    "SYM_HAND_WEAKNESS": false,
+    "SYM_SWELLING": false,
+    "SYM_FEVER": false,
+    "SYM_HAND_BURSAE_INFLAMMED": false
+  }
+},
+{
+  "patient_id": 90,
+  "symptoms": {
+    "SYM_PAIN": false,
+    "SYM_MUSCLE_WEAKNESS": false,
+    "SYM_WEAKNESS": false,
+    "SYM_HYPOCALCAEMIA": false,
+    "SYM_OSTEOPOROSIS": false,
+    "SYM_FATIGUE": false,
+    "SYM_PSEUDOFRACTURES": false
+  }
+},
+{
+  "patient_id": 91,
+  "symptoms": {
+    "SYM_TENDERNESS": false,
+    "SYM_SWELLING": false,
+    "SYM_LIMITED_ARM_MOTION": false,
+    "SYM_REDNESS_OF_SWELLING": false,
+    "SYM_ELBOW_STIFFNESS": false,
+    "SYM_OLECRANON_BURSAE_INFLAMMED": false
+  }
+},
+{
+  "patient_id": 92,
+  "symptoms": {
+    "SYM_STIFFNESS_IN_THE_KNEE": false,
+    "SYM_SWELLING_KNEE": false,
+    "SYM_PAIN": false,
+    "SYM_LIMITED_LEG_MOTION": false,
+    "SYM_FEVER": false,
+    "SYM_TENDERNESS": false,
+    "SYM_KNEE_BURSAE_INFLAMMED": false
+  }
+},
+{
+  "patient_id": 93,
+  "symptoms": {
+    "SYM_INJURY_TO_THE_HAND": false,
+    "SYM_PAIN": false,
+    "SYM_SKIN_AVULSION": false,
+    "SYM_OPEN_WOUND": false,
+    "SYM_MUSCLES_AND_SKIN_DAMAGED": false,
+    "SYM_HAND_PENETRATION": false
+  }
+},
+{
+  "patient_id": 94,
+  "symptoms": {
+    "SYM_INJURY_TO_THE_ARM": false,
+    "SYM_SKIN_AVULSION": false,
+    "SYM_OPEN_WOUND": false,
+    "SYM_MUSCLES_AND_SKIN_DAMAGED": false,
+    "SYM_ARM_PENETRATION": false,
+    "SYM_INFECTED_WOUND": false
+  }
+},
+{
+  "patient_id": 95,
+  "symptoms": {
+    "SYM_INJURY_TO_THE_LEG": false,
+    "SYM_PAIN": false,
+    "SYM_SKIN_AVULSION": false,
+    "SYM_OPEN_WOUND": false,
+    "SYM_LEG_PENETRATION": false
+  }
+},
+{
+  "patient_id": 96,
+  "symptoms": {
+    "SYM_INJURY_TO_THE_LEG": false,
+    "SYM_PAIN": false,
+    "SYM_OPEN_WOUND": false,
+    "SYM_MUSCLES_AND_SKIN_DAMAGED": false,
+    "SYM_FEET_PENETRATION": false
+  }
+},
+{
+  "patient_id": 97,
+  "symptoms": {
+    "SYM_SHOULDER_INJURY": false,
+    "SYM_STIFFNESS": false,
+    "SYM_WARMTH": false,
+    "SYM_SWELLING": false,
+    "SYM_BRUISE": false,
+    "SYM_LIMITED_ARM_MOTION": false,
+    "SYM_SHOULDER_SPRAIN": false
+  }
+},
+{
+  "patient_id": 98,
+  "symptoms": {
+    "SYM_KNEE_INJURY": false,
+    "SYM_STIFFNESS": false,
+    "SYM_WARMTH": false,
+    "SYM_SPASMS": false,
+    "SYM_PAIN": false,
+    "SYM_KNEE_SPRAIN": false
+  }
+},
+{
+  "patient_id": 99,
+  "symptoms": {
+    "SYM_ANKLE_INJURY": false,
+    "SYM_STIFFNESS": false,
+    "SYM_WARMTH": false,
+    "SYM_SWELLING": false,
+    "SYM_BRUISE": false,
+    "SYM_LIMITED_LEG_MOTION": false,
+    "SYM_ANKLE_SPRAIN": false
+  }
+},
+{
+  "patient_id": 100,
+  "symptoms": {
+    "SYM_KNEE_INJURY": false,
+    "SYM_SWELLING": false,
+    "SYM_PAIN": false,
+    "SYM_WALKING_DIFFICULTIES": false,
+    "SYM_LIMITED_LEG_MOTION": false,
+    "SYM_ACL_INJURY": false
+  }
+},
+{
+  "patient_id": 101,
+  "symptoms": {
+    "SYM_INJURY_TO_THE_ARM": false,
+    "SYM_PAIN": false,
+    "SYM_LIMITED_ARM_MOTION": false,
+    "SYM_SWELLING": false,
+    "SYM_TENDERNESS": false,
+    "SYM_ULNA_FRACTURE": false
+  }
+},
+{
+  "patient_id": 102,
+  "symptoms": {
+    "SYM_INJURY_TO_THE_ARM": false,
+    "SYM_OPEN_WOUND": false,
+    "SYM_DIZZINESS": false,
+    "SYM_BONE_FRACTURE_VISIBLE": false,
+    "SYM_MUSCLES_AND_SKIN_DAMAGED": false,
+    "SYM_DEPICTION_OF_ULNAR_FRACTURE": false,
+    "SYM_HYPOVOLEMIC_SHOCK": false
+  }
+},
+{
+  "patient_id": 103,
+  "symptoms": {
+    "SYM_INJURY_TO_THE_ARM": false,
+    "SYM_LIMITED_ARM_MOTION": false,
+    "SYM_SWELLING": false,
+    "SYM_REDNESS": false,
+    "SYM_TENDERNESS": false,
+    "SYM_BRUISE": false,
+    "SYM_RADIUS_FRACTURE": false
+  }
+},
+{
+  "patient_id": 104,
+  "symptoms": {
+    "SYM_INJURY_TO_THE_ARM": false,
+    "SYM_PAIN": false,
+    "SYM_LIMITED_ARM_MOTION": false,
+    "SYM_SWELLING": false,
+    "SYM_BRUISE": false,
+    "SYM_HUMERUS_FRACTURE": false
+  }
+},
+{
+  "patient_id": 105,
+  "symptoms": {
+    "SYM_INJURY_TO_THE_ARM": false,
+    "SYM_OPEN_WOUND": false,
+    "SYM_SEVERE_ARM_PAIN": false,
+    "SYM_DIZZINESS": false,
+    "SYM_BONE_FRACTURE_VISIBLE": false,
+    "SYM_DEPICTION_OF_HUMERUS_FRACTURE": false
+  }
+},
+{
+  "patient_id": 106,
+  "symptoms": {
+    "SYM_INJURY_TO_THE_LEG": false,
+    "SYM_PAIN": false,
+    "SYM_LIMITED_LEG_MOTION": false,
+    "SYM_SWELLING": false,
+    "SYM_REDNESS": false,
+    "SYM_BRUISE": false,
+    "SYM_FEMUR_FRACTURE": false
+  }
+},
+{
+  "patient_id": 107,
+  "symptoms": {
+    "SYM_INJURY_TO_THE_LEG": false,
+    "SYM_OPEN_WOUND": false,
+    "SYM_SEVERE_LEG_PAIN": false,
+    "SYM_DIZZINESS": false,
+    "SYM_BONE_FRACTURE_VISIBLE": false,
+    "SYM_MUSCLES_AND_SKIN_DAMAGED": false,
+    "SYM_DEPICTION_OF_FEMUR_FRACTURE": false
+  }
+},
+{
+  "patient_id": 108,
+  "symptoms": {
+    "SYM_INJURY_TO_THE_LEG": false,
+    "SYM_PAIN": false,
+    "SYM_SWELLING": false,
+    "SYM_REDNESS": false,
+    "SYM_TENDERNESS": false,
+    "SYM_BRUISE": false,
+    "SYM_TIBIA_FRACTURE": false
+  }
+},
+{
+  "patient_id": 109,
+  "symptoms": {
+    "SYM_INJURY_TO_THE_LEG": false,
+    "SYM_LIMITED_LEG_MOTION": false,
+    "SYM_SWELLING": false,
+    "SYM_BRUISE": false,
+    "SYM_TIBIA_SPIRAL_FRACTURE": false
+  }
+},
+{
+  "patient_id": 110,
+  "symptoms": {
+    "SYM_INJURY_TO_THE_LEG": false,
+    "SYM_PAIN": false,
+    "SYM_REDNESS": false,
+    "SYM_TENDERNESS": false,
+    "SYM_BRUISE": false,
+    "SYM_FIBULA_FRACTURE": false
+  }
+},
+{
+  "patient_id": 111,
+  "symptoms": {
+    "SYM_INJURY_TO_THE_LEG": false,
+    "SYM_OPEN_WOUND": false,
+    "SYM_SEVERE_LEG_PAIN": false,
+    "SYM_BONE_FRACTURE_VISIBLE": false,
+    "SYM_MUSCLES_AND_SKIN_DAMAGED": false,
+    "SYM_DEPICTION_OF_TIBIA_FRACTURE": false
+  }
+},
+{
+  "patient_id": 112,
+  "symptoms": {
+    "SYM_ANKLE_INJURY": false,
+    "SYM_STIFFNESS": false,
+    "SYM_WARMTH": false,
+    "SYM_SWELLING": false,
+    "SYM_PAIN": false,
+    "SYM_ANKLE_BRUISE": false,
+    "SYM_INABILITY_TO_MOVE_THE_JOINT": false,
+    "SYM_LIMITED_LEG_MOTION": false,
+    "SYM_ANKLE_FRACTURE": false
+  }
+},
+{
+  "patient_id": 113,
+  "symptoms": {
+    "SYM_INJURY_TO_THE_HAND": false,
+    "SYM_STIFFNESS": false,
+    "SYM_WARMTH": false,
+    "SYM_HAND_PAIN": false,
+    "SYM_BRUISE": false,
+    "SYM_TENDERNESS": false,
+    "SYM_HAND_WEAKNESS": false,
+    "SYM_FINGER_FRACTURE": false
+  }
+}]

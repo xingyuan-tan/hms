@@ -1,5 +1,6 @@
 from disease_data import diseases
 from pymongo import MongoClient
+import random
 
 URL = 'mongodb+srv://HMS-user1:NJq36J0vSngNXtv7@hmscluster.obiqt5i.mongodb.net/?retryWrites=true&w=majority'
 
@@ -19,7 +20,8 @@ for dis in diseases:
     patient['examined'] = {}
 
     for sym in diseases[dis]['Symptoms']:
-        patient['symptoms'][sym['GameDBSymptomRef']] = False
+        if sym['ProbabilityPercent'] > random.random() * 100:
+            patient['symptoms'][sym['GameDBSymptomRef']] = False
 
     collections.insert_one(patient)
     # print(patient)

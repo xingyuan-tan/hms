@@ -12,7 +12,7 @@ app = Flask(__name__, template_folder='../templates', static_folder='../template
 
 client = MongoClient(URL, tlsAllowInvalidCertificates=True)
 db = client.patientDatabase
-collections = db.HMSCollection
+collections = db.HMSCollection0
 
 
 @app.route("/")
@@ -142,7 +142,7 @@ def examine():
 
     return ('success', 200)
 
-app.run(port=5000, debug=True, threaded=True)
+app.run(port=5000, debug=True, threaded=True, host='0.0.0.0')
 
 
 

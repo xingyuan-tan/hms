@@ -716,6 +716,7 @@ diseases = {
       },
       {
         "DayOfFirstOccurence": 0,
+        "ProbabilityPercent": 0,
         "GameDBSymptomRef": "SYM_TENDERNESS"
       },
       {
@@ -1345,7 +1346,7 @@ diseases = {
       },
       {
         "ProbabilityPercent": 100,
-        "GameDBSymptomRef": "SYM_HAPTOGLOBIN_HIGH"
+        "GameDBSymptomRef": "SYM_HAPTOGLOBIN_LOW"
       },
       {
         "DayOfFirstOccurence": 0,
@@ -1516,44 +1517,44 @@ diseases = {
       }
     ]
   },
-  "Sarcoidosis - Eye": {
-    "Symptoms": [
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 60,
-        "GameDBSymptomRef": "SYM_FATIGUE"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 60,
-        "GameDBSymptomRef": "SYM_FEVER"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 50,
-        "GameDBSymptomRef": "SYM_SWOLLEN_LYMPH_NODES"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 50,
-        "GameDBSymptomRef": "SYM_WEIGHT_LOSS"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 60,
-        "GameDBSymptomRef": "SYM_RED_EYE"
-      },
-      {
-        "DayOfFirstOccurence": 0,
-        "ProbabilityPercent": 0,
-        "GameDBSymptomRef": "SYM_PHOTOPHOBIA"
-      },
-      {
-        "ProbabilityPercent": 100,
-        "GameDBSymptomRef": "SYM_GRANULOMAS_EYES"
-      }
-    ]
-  },
+  # "Sarcoidosis - Eye": {
+  #   "Symptoms": [
+  #     {
+  #       "DayOfFirstOccurence": 0,
+  #       "ProbabilityPercent": 60,
+  #       "GameDBSymptomRef": "SYM_FATIGUE"
+  #     },
+  #     {
+  #       "DayOfFirstOccurence": 0,
+  #       "ProbabilityPercent": 60,
+  #       "GameDBSymptomRef": "SYM_FEVER"
+  #     },
+  #     {
+  #       "DayOfFirstOccurence": 0,
+  #       "ProbabilityPercent": 50,
+  #       "GameDBSymptomRef": "SYM_SWOLLEN_LYMPH_NODES"
+  #     },
+  #     {
+  #       "DayOfFirstOccurence": 0,
+  #       "ProbabilityPercent": 50,
+  #       "GameDBSymptomRef": "SYM_WEIGHT_LOSS"
+  #     },
+  #     {
+  #       "DayOfFirstOccurence": 0,
+  #       "ProbabilityPercent": 60,
+  #       "GameDBSymptomRef": "SYM_RED_EYE"
+  #     },
+  #     {
+  #       "DayOfFirstOccurence": 0,
+  #       "ProbabilityPercent": 0,
+  #       "GameDBSymptomRef": "SYM_PHOTOPHOBIA"
+  #     },
+  #     {
+  #       "ProbabilityPercent": 100,
+  #       "GameDBSymptomRef": "SYM_GRANULOMAS_EYES"
+  #     }
+  #   ]
+  # },
   "Sarcoidosis - Heart": {
     "Symptoms": [
       {
@@ -5078,7 +5079,7 @@ diseases = {
       }
     ]
   },
-  "acl tear": {
+  "ACL Tear": {
     "Symptoms": [
       {
         "DayOfFirstOccurence": 0,
