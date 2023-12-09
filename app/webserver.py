@@ -12,7 +12,7 @@ app = Flask(__name__, template_folder='../templates', static_folder='../template
 
 client = MongoClient(URL, tlsAllowInvalidCertificates=True)
 db = client.patientDatabase
-collections = db.HMSCollection0
+collections = db.HMSCollection
 
 
 @app.route("/")
