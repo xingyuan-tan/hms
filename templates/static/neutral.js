@@ -1,12 +1,13 @@
 var btnFetchPatient = document.getElementById("fetch-patient");
 var selectedPatient = document.getElementById("selected-patient");
-
 var patientDisease = document.getElementById("patient-disease");
 var discoveredList = document.getElementById("discovered-list");
 var undiscoveredList = document.getElementById("undiscovered-list");
 var selectedExamine = document.getElementById("selected-examine");
 var btnSendExamine = document.getElementById("send-examine");
 var completedExamList = document.getElementById("completed-exam-list");
+var diagnosisList = document.getElementById("diagnosis-list")
+var diagnosesFound = document.getElementById("diagnoses-found")
 
 const URL = window.location.host;
 
@@ -42,6 +43,7 @@ function fetchPatient() {
             console.error('Fetch error:', error);
         }
         );
+
 }
 
 function updatePatient(data) {
@@ -55,11 +57,13 @@ function updatePatient(data) {
     undiscoveredList.textContent = '';
     selectedExamine.textContent = '';
     completedExamList.textContent = '';
+    diagnosisList.textContent = '';
+    diagnosesFound.textContent = 'No';
 
     console.log('Update Patient Disease');
     if (patient['disease']) {
         console.log(patient['disease']);
-        patientDisease.textContent = patient['disease'];
+        //patientDisease.textContent = patient['disease'];
     }
     
     console.log("Update Discovered and Undiscovered Lists")
@@ -72,13 +76,11 @@ function updatePatient(data) {
             newItem.className = 'list-group-item';
             newItem.textContent = key;
             discoveredList.appendChild(newItem);
-        } else {
-            const newItem = document.createElement('li');
-            newItem.className = 'list-group-item';
-            newItem.textContent = key;
-            undiscoveredList.appendChild(newItem);
+
         }
+
     });
+
 
     console.log("Update Possible Examinations List")
     Object.keys(patient['possible_exam']).forEach(function(key){
@@ -94,32 +96,57 @@ function updatePatient(data) {
         newItem.textContent = key;
         completedExamList.appendChild(newItem);
     });
+
+
+    console.log('Update Diagnosis')
+    if (data['diagnoses'] == null) {
+        const newItem = document.createElement('li');
+        newItem.className = 'list-group-item list-group-item-danger';
+        newItem.textContent = "You have not completed any examination yet";
+        diagnosisList.appendChild(newItem);
+    }
+    else {
+        Object.keys(data['diagnoses']).forEach(function(key){
+
+            if (data['diagnoses'][key]) {
+                const newItem = document.createElement('li');
+                newItem.className = 'list-group-item';
+                newItem.textContent = data['diagnoses'][key];
+                diagnosisList.appendChild(newItem);
+            }
+
+        });
+        diagnosesFound.textContent = Object.keys(data['diagnoses']).length;
+    }
 }
 
 btnSendExamine.onclick = function() {
-    console.log("Sending examination");
-    console.log(selectedPatient.value)
-    console.log(selectedExamine.value)
-    // fetch('http://' + URL + '/examine?patient_id='+selectedPatient.value+'&examination='+selectedExamine.value);
+    if (confirm("Are you sure to proceed")){
+        console.log("Sending examination");
+        console.log(selectedPatient.value)
+        console.log(selectedExamine.value)
+        //fetch('http://' + URL + '/examine?patient_id='+selectedPatient.value+'&examination='+selectedExamine.value);
 
-    fetch('http://' + URL + '/examine', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-            patient_id: selectedPatient.value,
-            examination: selectedExamine.value,
-        }),
-    })
+        fetch('http://' + URL + '/examine', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                patient_id: selectedPatient.value,
+                examination: selectedExamine.value,
+            }),
+        })
 
-    .then((data) => {
-        console.log('Success:', data);
-        fetchPatient();
-    })
-    .catch((error) => {
-        console.error('Error:', error);
-    });
+            .then((data) => {
+                console.log('Success:', data);
+                fetchPatient();
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
+    }
+
 
     
     //update info screen
